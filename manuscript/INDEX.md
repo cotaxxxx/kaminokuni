@@ -43,6 +43,11 @@
 21. [第21話「倒れる方向」](./chapters/07-リデル炎上/021-第21話-倒れる方向.md) — `REGISTERED / LOCKED`
 22. [第22話「うまくいった」](./chapters/07-リデル炎上/022-第22話-うまくいった.md) — `REGISTERED / LOCKED`
 
+## 第8章「選民」
+
+23. [第23話「三つの欄」](./chapters/08-選民/023-第23話-三つの欄.md) — `REGISTERED / LOCKED`
+24. [第24話「選民」](./chapters/08-選民/024-第24話-選民.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
