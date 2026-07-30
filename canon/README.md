@@ -8,9 +8,12 @@
 
 詳細は [`CANON_RULES.md`](./CANON_RULES.md) を参照する。
 
+資料の提示順は [`SOURCE_REGISTER.md`](./SOURCE_REGISTER.md) に保存する。
+
 ## 文書一覧
 
 - [`CANON_RULES.md`](./CANON_RULES.md)：正典の優先順位、状態、更新規則
+- [`SOURCE_REGISTER.md`](./SOURCE_REGISTER.md)：統合元資料の提示順と優先関係
 - [`01_CHRONOLOGY_AND_CHAPTERS.md`](./01_CHRONOLOGY_AND_CHAPTERS.md)：暦、主要年表、編・章・話構成
 - [`02_STATE_GOVERNANCE_AND_LAW.md`](./02_STATE_GOVERNANCE_AND_LAW.md)：国家統治、国会、外務、港湾、行政、法域
 - [`03_STATUS_SLAVERY_AND_SELECTED.md`](./03_STATUS_SLAVERY_AND_SELECTED.md)：奴隷法、自由民、選民、特別選民
