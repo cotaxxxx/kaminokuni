@@ -48,6 +48,14 @@
 23. [第23話「三つの欄」](./chapters/08-選民/023-第23話-三つの欄.md) — `REGISTERED / LOCKED`
 24. [第24話「選民」](./chapters/08-選民/024-第24話-選民.md) — `REGISTERED / LOCKED`
 
+## 第9章「扉を開く者」
+
+25. [第25話「口をつぐむ」](./chapters/09-扉を開く者/025-第25話-口をつぐむ.md) — `REGISTERED / LOCKED`
+26. [第26話「寒いところ」](./chapters/09-扉を開く者/026-第26話-寒いところ.md) — `REGISTERED / LOCKED`
+27. [第27話「同じ机」](./chapters/09-扉を開く者/027-第27話-同じ机.md) — `REGISTERED / LOCKED`
+
+第9章は継続中。第28話以降は未登録。
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
