@@ -44,6 +44,7 @@
 - [`20_CHAPTER_12_REGISTERED_CANON.md`](./20_CHAPTER_12_REGISTERED_CANON.md)：第12章登録本文、圧力筒と箱の寸法差、旧火薬庫方向、二つの届け先、三翼運送社記録保全
 - [`22_CHAPTER_13_REGISTERED_CANON.md`](./22_CHAPTER_13_REGISTERED_CANON.md)：第13章登録本文、光速測定、質量・エネルギー関係、エリアス死亡、三部保存、身元確認、婚姻、特別選民登録
 - [`21_CHAPTER_14_REGISTERED_CANON.md`](./21_CHAPTER_14_REGISTERED_CANON.md)：第14章登録本文、黒い壁との単独対話、核研究準備室、三部保存、第92元素、西方重鉱物予備調査
+- [`23_MORIMOTO_FAMILY_CANON.md`](./23_MORIMOTO_FAMILY_CANON.md)：森本右近太夫一房、森本右近、森本左近の系譜、史実と創作の境界、第15章・第20章の登場配置
 - [`UNRESOLVED.md`](./UNRESOLVED.md)：現時点の未確定事項
 - [`SUPERSEDED.md`](./SUPERSEDED.md)：後出資料により置換された旧値
 
