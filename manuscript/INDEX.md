@@ -54,7 +54,10 @@
 26. [第26話「寒いところ」](./chapters/09-扉を開く者/026-第26話-寒いところ.md) — `REGISTERED / LOCKED`
 27. [第27話「同じ机」](./chapters/09-扉を開く者/027-第27話-同じ机.md) — `REGISTERED / LOCKED`
 
-第9章は継続中。第28話以降は未登録。
+## 第10章「三枚の翼」
+
+28. [第28話「三枚の翼」](./chapters/10-三枚の翼/028-第28話-三枚の翼.md) — `REGISTERED / LOCKED`
+29. [第29話「歓迎」](./chapters/10-三枚の翼/029-第29話-歓迎.md) — `REGISTERED / LOCKED`
 
 ## 外伝
 
