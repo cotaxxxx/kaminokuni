@@ -12,6 +12,13 @@
 5. [第5話「リデルの学校」](./chapters/02-南へ/005-第5話-リデルの学校.md) — `REGISTERED / LOCKED`
 6. [第6話「選別」](./chapters/02-南へ/006-第6話-選別.md) — `REGISTERED / LOCKED`
 
+## 第3章「歓楽街セル」
+
+7. [第7話「黒い行先票」](./chapters/03-歓楽街セル/007-第7話-黒い行先票.md) — `REGISTERED / LOCKED`
+8. [第8話「半金貨」](./chapters/03-歓楽街セル/008-第8話-半金貨.md) — `REGISTERED / LOCKED`
+9. [第9話「市の熱」](./chapters/03-歓楽街セル/009-第9話-市の熱.md) — `REGISTERED / LOCKED`
+10. [第10話「600枚」](./chapters/03-歓楽街セル/010-第10話-600枚.md) — `REGISTERED / LOCKED`
+
 ## 登録規則
 
 - 本文は一話一ファイルで管理する。
