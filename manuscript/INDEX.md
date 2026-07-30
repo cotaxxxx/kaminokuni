@@ -82,6 +82,14 @@
 39. [第39話「最初の記録」](./chapters/14-黒い壁/039-第39話-最初の記録.md) — `REGISTERED / LOCKED`
 40. [第40話「地図の外」](./chapters/14-黒い壁/040-第40話-地図の外.md) — `REGISTERED / LOCKED`
 
+## 第15章「石」
+
+41. [第41話「山の口」](./chapters/15-石/041-第41話-山の口.md) — `REGISTERED / LOCKED`
+42. [第42話「石の在りか」](./chapters/15-石/042-第42話-石の在りか.md) — `REGISTERED / LOCKED`
+43. [第43話「数百人」](./chapters/15-石/043-第43話-数百人.md) — `REGISTERED / LOCKED`
+44. [第44話「しんがり」](./chapters/15-石/044-第44話-しんがり.md) — `REGISTERED / LOCKED`
+45. [第45話「帰還」](./chapters/15-石/045-第45話-帰還.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
