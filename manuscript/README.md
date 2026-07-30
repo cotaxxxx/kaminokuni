@@ -17,6 +17,7 @@
 - [第12章「箱」登録台帳](./management/12-箱-登録台帳.md)
 - [第13章「光の重さ」登録台帳](./management/13-光の重さ-登録台帳.md)
 - [第14章「黒い壁」登録台帳](./management/14-黒い壁-登録台帳.md)
+- [第15章「石」登録台帳](./management/15-石-登録台帳.md)
 - [外伝「市」登録台帳](./management/外伝-市-登録台帳.md)
 
 ## 登録済み章
@@ -35,6 +36,7 @@
 - 第12章「箱」：第32話〜第33話 `REGISTERED / LOCKED`
 - 第13章「光の重さ」：第34話〜第37話 `REGISTERED / LOCKED`
 - 第14章「黒い壁」：第38話〜第40話 `REGISTERED / LOCKED`
+- 第15章「石」：第41話〜第45話 `REGISTERED / LOCKED`
 
 ## 登録済み外伝
 
