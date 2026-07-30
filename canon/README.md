@@ -10,6 +10,8 @@
 
 `REGISTERED / LOCKED` の本文に明示された事実は、登録前の構造整理・設計案より優先する。
 
+登録済み外伝は登録済み本編を補完する。本編と抵触する場合は、先に固定された本編事実を維持し、外伝側で整合させる。
+
 詳細は [`CANON_RULES.md`](./CANON_RULES.md) を参照する。
 
 資料の提示順は [`SOURCE_REGISTER.md`](./SOURCE_REGISTER.md) に保存する。
@@ -31,6 +33,7 @@
 - [`09_CHAPTER_2_REGISTERED_CANON.md`](./09_CHAPTER_2_REGISTERED_CANON.md)：第2章登録本文、個別選別、金属札と行先票、旧3列構造の置換
 - [`10_CHAPTER_3_REGISTERED_CANON.md`](./10_CHAPTER_3_REGISTERED_CANON.md)：第3章登録本文、セル仮配置、市の600金貨、惟と柚の自由民化
 - [`11_CHAPTER_4_REGISTERED_CANON.md`](./11_CHAPTER_4_REGISTERED_CANON.md)：第4章登録本文、姓名、デルムンド二重帳簿、ハイセルの申立て、ヨナスの私信
+- [`12_SIDE_STORY_ICHI_REGISTERED_CANON.md`](./12_SIDE_STORY_ICHI_REGISTERED_CANON.md)：外伝「市」、長洲の出自、二つの店、レオニス、宗吉、600枚目、未登録姓
 - [`UNRESOLVED.md`](./UNRESOLVED.md)：現時点の未確定事項
 - [`SUPERSEDED.md`](./SUPERSEDED.md)：後出資料により置換された旧値
 
@@ -46,6 +49,9 @@
 - 神乃国破局：1611年12月2日
 - 日本側の地震・津波表記：慶長奥州地震
 - 惟・柚・惟歳・マーサの出国：1611年5月
+- 市の出生地：豊前国宇佐、港町長洲
+- 市の本人選定・未登録姓：長洲
+- 市の法的登録名・墓碑名：市
 - 市の死亡：1589年冬、24歳
 - 惟と柚の自由民化：1590年3月
 - 惟の首都守備軍工兵隊配属：1590年4月
