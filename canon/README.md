@@ -34,6 +34,7 @@
 - [`10_CHAPTER_3_REGISTERED_CANON.md`](./10_CHAPTER_3_REGISTERED_CANON.md)：第3章登録本文、セル仮配置、市の600金貨、惟と柚の自由民化
 - [`11_CHAPTER_4_REGISTERED_CANON.md`](./11_CHAPTER_4_REGISTERED_CANON.md)：第4章登録本文、姓名、デルムンド二重帳簿、ハイセルの申立て、ヨナスの私信
 - [`12_SIDE_STORY_ICHI_REGISTERED_CANON.md`](./12_SIDE_STORY_ICHI_REGISTERED_CANON.md)：外伝「市」、長洲の出自、二つの店、レオニス、宗吉、600枚目、未登録姓
+- [`13_CHAPTER_5_REGISTERED_CANON.md`](./13_CHAPTER_5_REGISTERED_CANON.md)：第5章登録本文、御前会議、五年計画、240丁、トゥグルグとセーラ、光の有限速度仮説
 - [`UNRESOLVED.md`](./UNRESOLVED.md)：現時点の未確定事項
 - [`SUPERSEDED.md`](./SUPERSEDED.md)：後出資料により置換された旧値
 
@@ -56,6 +57,7 @@
 - 惟と柚の自由民化：1590年3月
 - 惟の首都守備軍工兵隊配属：1590年4月
 - ハイセルの資格：海外勤務契約者遺族保護資格
+- 1590年7月のセーラ：19歳、総統アルヴァの実娘
 - 章・話番号：アラビア数字
 
 ## 運用上の注意
