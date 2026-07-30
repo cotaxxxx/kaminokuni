@@ -31,6 +31,12 @@
 15. [第15話「240丁」](./chapters/05-光の遅れ/015-第15話-240丁.md) — `REGISTERED / LOCKED`
 16. [第16話「光の遅れ」](./chapters/05-光の遅れ/016-第16話-光の遅れ.md) — `REGISTERED / LOCKED`
 
+## 第6章「キジルバシュ」
+
+17. [第17話「空欄の先」](./chapters/06-キジルバシュ/017-第17話-空欄の先.md) — `REGISTERED / LOCKED`
+18. [第18話「尻尾」](./chapters/06-キジルバシュ/018-第18話-尻尾.md) — `REGISTERED / LOCKED`
+19. [第19話「内側の帳簿」](./chapters/06-キジルバシュ/019-第19話-内側の帳簿.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
