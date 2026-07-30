@@ -64,6 +64,11 @@
 30. [第30話「全部ある」](./chapters/11-記録の行方/030-第30話-全部ある.md) — `REGISTERED / LOCKED`
 31. [第31話「同じ番号」](./chapters/11-記録の行方/031-第31話-同じ番号.md) — `REGISTERED / LOCKED`
 
+## 第12章「箱」
+
+32. [第32話「箱に入らないもの」](./chapters/12-箱/032-第32話-箱に入らないもの.md) — `REGISTERED / LOCKED`
+33. [第33話「二つの届け先」](./chapters/12-箱/033-第33話-二つの届け先.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
