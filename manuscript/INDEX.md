@@ -71,15 +71,16 @@
 
 ## 第13章「光の重さ」
 
-- 第34話〜第37話 — `UNREGISTERED / PLANNED`
+34. [第34話「同じ速さ」](./chapters/13-光の重さ/034-第34話-同じ速さ.md) — `REGISTERED / LOCKED`
+35. [第35話「光の重さ」](./chapters/13-光の重さ/035-第35話-光の重さ.md) — `REGISTERED / LOCKED`
+36. [第36話「空いた椅子」](./chapters/13-光の重さ/036-第36話-空いた椅子.md) — `REGISTERED / LOCKED`
+37. [第37話「血の外から」](./chapters/13-光の重さ/037-第37話-血の外から.md) — `REGISTERED / LOCKED`
 
 ## 第14章「黒い壁」
 
 38. [第38話「一人残れ」](./chapters/14-黒い壁/038-第38話-一人残れ.md) — `REGISTERED / LOCKED`
 39. [第39話「最初の記録」](./chapters/14-黒い壁/039-第39話-最初の記録.md) — `REGISTERED / LOCKED`
 40. [第40話「地図の外」](./chapters/14-黒い壁/040-第40話-地図の外.md) — `REGISTERED / LOCKED`
-
-第14章は第13章の後を描く。第13章本文は未登録のため、第34話〜第37話の登録時に第14章の登録済み事実と整合させる。
 
 ## 外伝
 
