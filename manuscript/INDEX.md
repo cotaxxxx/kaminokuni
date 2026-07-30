@@ -25,6 +25,12 @@
 12. [第12話「血の訴状」](./chapters/04-デルムンド/012-第12話-血の訴状.md) — `REGISTERED / LOCKED`
 13. [第13話「受理済み」](./chapters/04-デルムンド/013-第13話-受理済み.md) — `REGISTERED / LOCKED`
 
+## 第5章「光の遅れ」
+
+14. [第14話「五年計画」](./chapters/05-光の遅れ/014-第14話-五年計画.md) — `REGISTERED / LOCKED`
+15. [第15話「240丁」](./chapters/05-光の遅れ/015-第15話-240丁.md) — `REGISTERED / LOCKED`
+16. [第16話「光の遅れ」](./chapters/05-光の遅れ/016-第16話-光の遅れ.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
