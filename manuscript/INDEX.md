@@ -37,6 +37,12 @@
 18. [第18話「尻尾」](./chapters/06-キジルバシュ/018-第18話-尻尾.md) — `REGISTERED / LOCKED`
 19. [第19話「内側の帳簿」](./chapters/06-キジルバシュ/019-第19話-内側の帳簿.md) — `REGISTERED / LOCKED`
 
+## 第7章「リデル炎上」
+
+20. [第20話「赤い空」](./chapters/07-リデル炎上/020-第20話-赤い空.md) — `REGISTERED / LOCKED`
+21. [第21話「倒れる方向」](./chapters/07-リデル炎上/021-第21話-倒れる方向.md) — `REGISTERED / LOCKED`
+22. [第22話「うまくいった」](./chapters/07-リデル炎上/022-第22話-うまくいった.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
