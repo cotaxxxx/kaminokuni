@@ -8,6 +8,8 @@
 
 作者が古い順に提示した資料を統合し、矛盾する場合は後から提示された内容を優先する。
 
+`REGISTERED / LOCKED` の本文に明示された事実は、登録前の構造整理・設計案より優先する。
+
 詳細は [`CANON_RULES.md`](./CANON_RULES.md) を参照する。
 
 資料の提示順は [`SOURCE_REGISTER.md`](./SOURCE_REGISTER.md) に保存する。
@@ -26,6 +28,7 @@
 - [`06_RESEARCH_TECHNOLOGY_AND_RECORDS.md`](./06_RESEARCH_TECHNOLOGY_AND_RECORDS.md)：技術史、研究所、原子力、記録制度
 - [`07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md`](./07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md)：事件、証拠、章別確定事項、繰越修正
 - [`08_LATE_STORY_AND_DISASTER.md`](./08_LATE_STORY_AND_DISASTER.md)：後編、アズナル、1611年破局
+- [`09_CHAPTER_2_REGISTERED_CANON.md`](./09_CHAPTER_2_REGISTERED_CANON.md)：第2章登録本文、個別選別、金属札と行先票、旧3列構造の置換
 - [`UNRESOLVED.md`](./UNRESOLVED.md)：現時点の未確定事項
 - [`SUPERSEDED.md`](./SUPERSEDED.md)：後出資料により置換された旧値
 
