@@ -29,6 +29,7 @@
 - [`07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md`](./07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md)：事件、証拠、章別確定事項、繰越修正
 - [`08_LATE_STORY_AND_DISASTER.md`](./08_LATE_STORY_AND_DISASTER.md)：後編、アズナル、1611年破局
 - [`09_CHAPTER_2_REGISTERED_CANON.md`](./09_CHAPTER_2_REGISTERED_CANON.md)：第2章登録本文、個別選別、金属札と行先票、旧3列構造の置換
+- [`10_CHAPTER_3_REGISTERED_CANON.md`](./10_CHAPTER_3_REGISTERED_CANON.md)：第3章登録本文、セル仮配置、市の600金貨、惟と柚の自由民化
 - [`UNRESOLVED.md`](./UNRESOLVED.md)：現時点の未確定事項
 - [`SUPERSEDED.md`](./SUPERSEDED.md)：後出資料により置換された旧値
 
@@ -44,6 +45,8 @@
 - 神乃国破局：1611年12月2日
 - 日本側の地震・津波表記：慶長奥州地震
 - 惟・柚・惟歳・マーサの出国：1611年5月
+- 市の死亡：1589年冬、24歳
+- 惟と柚の自由民化：1590年3月
 - 章・話番号：アラビア数字
 
 ## 運用上の注意
