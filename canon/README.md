@@ -14,6 +14,7 @@
 
 - [`CANON_RULES.md`](./CANON_RULES.md)：正典の優先順位、状態、更新規則
 - [`SOURCE_REGISTER.md`](./SOURCE_REGISTER.md)：統合元資料の提示順と優先関係
+- [`TERMINOLOGY.md`](./TERMINOLOGY.md)：固有用語と表記基準
 - [`01_CHRONOLOGY_AND_CHAPTERS.md`](./01_CHRONOLOGY_AND_CHAPTERS.md)：暦、主要年表、編・章・話構成
 - [`02_STATE_GOVERNANCE_AND_LAW.md`](./02_STATE_GOVERNANCE_AND_LAW.md)：国家統治、国会、外務、港湾、行政、法域
 - [`03_STATUS_SLAVERY_AND_SELECTED.md`](./03_STATUS_SLAVERY_AND_SELECTED.md)：奴隷法、自由民、選民、特別選民
@@ -32,6 +33,7 @@
 - 選民人口：約1万人（一般人口の外数）
 - 制度圏人口：約61万人
 - 神乃国破局：1611年12月2日
+- 日本側の地震・津波表記：慶長奥州地震
 - 惟・柚・惟歳・マーサの出国：1611年5月
 - 章・話番号：アラビア数字
 
