@@ -19,6 +19,12 @@
 9. [第9話「市の熱」](./chapters/03-歓楽街セル/009-第9話-市の熱.md) — `REGISTERED / LOCKED`
 10. [第10話「600枚」](./chapters/03-歓楽街セル/010-第10話-600枚.md) — `REGISTERED / LOCKED`
 
+## 第4章「デルムンド」
+
+11. [第11話「姓」](./chapters/04-デルムンド/011-第11話-姓.md) — `REGISTERED / LOCKED`
+12. [第12話「血の訴状」](./chapters/04-デルムンド/012-第12話-血の訴状.md) — `REGISTERED / LOCKED`
+13. [第13話「受理済み」](./chapters/04-デルムンド/013-第13話-受理済み.md) — `REGISTERED / LOCKED`
+
 ## 登録規則
 
 - 本文は一話一ファイルで管理する。
