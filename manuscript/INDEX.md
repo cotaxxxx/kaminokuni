@@ -59,6 +59,11 @@
 28. [第28話「三枚の翼」](./chapters/10-三枚の翼/028-第28話-三枚の翼.md) — `REGISTERED / LOCKED`
 29. [第29話「歓迎」](./chapters/10-三枚の翼/029-第29話-歓迎.md) — `REGISTERED / LOCKED`
 
+## 第11章「記録の行方」
+
+30. [第30話「全部ある」](./chapters/11-記録の行方/030-第30話-全部ある.md) — `REGISTERED / LOCKED`
+31. [第31話「同じ番号」](./chapters/11-記録の行方/031-第31話-同じ番号.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
