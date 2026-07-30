@@ -6,6 +6,12 @@
 2. [第2話「上戸の傭兵隊長」](./chapters/01-落城/002-第2話-上戸の傭兵隊長.md) — `REGISTERED / LOCKED`
 3. [第3話「我が子らに告げる」](./chapters/01-落城/003-第3話-我が子らに告げる.md) — `REGISTERED / LOCKED`
 
+## 第2章「南へ」
+
+4. [第4話「海上の教室」](./chapters/02-南へ/004-第4話-海上の教室.md) — `REGISTERED / LOCKED`
+5. [第5話「リデルの学校」](./chapters/02-南へ/005-第5話-リデルの学校.md) — `REGISTERED / LOCKED`
+6. [第6話「選別」](./chapters/02-南へ/006-第6話-選別.md) — `REGISTERED / LOCKED`
+
 ## 登録規則
 
 - 本文は一話一ファイルで管理する。
