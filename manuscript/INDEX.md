@@ -25,9 +25,15 @@
 12. [第12話「血の訴状」](./chapters/04-デルムンド/012-第12話-血の訴状.md) — `REGISTERED / LOCKED`
 13. [第13話「受理済み」](./chapters/04-デルムンド/013-第13話-受理済み.md) — `REGISTERED / LOCKED`
 
+## 外伝
+
+- [外伝目次](./SIDE_STORIES_INDEX.md)
+- [外伝「市」](./side-stories/市/001-第1話-奴隷.md) — 全4話 `REGISTERED / LOCKED`
+
 ## 登録規則
 
 - 本文は一話一ファイルで管理する。
+- 外伝は本編話数とは別系列で管理する。
 - `REGISTERED / LOCKED` の本文は遡及修正しない。
 - 登録後に判明した問題は、後続話、前方訂正記録、正典管理記録のいずれかで処理する。
 - 現行正式題名は **The Black Wall**。
