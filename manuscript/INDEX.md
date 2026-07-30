@@ -69,6 +69,18 @@
 32. [第32話「箱に入らないもの」](./chapters/12-箱/032-第32話-箱に入らないもの.md) — `REGISTERED / LOCKED`
 33. [第33話「二つの届け先」](./chapters/12-箱/033-第33話-二つの届け先.md) — `REGISTERED / LOCKED`
 
+## 第13章「光の重さ」
+
+- 第34話〜第37話 — `UNREGISTERED / PLANNED`
+
+## 第14章「黒い壁」
+
+38. [第38話「一人残れ」](./chapters/14-黒い壁/038-第38話-一人残れ.md) — `REGISTERED / LOCKED`
+39. [第39話「最初の記録」](./chapters/14-黒い壁/039-第39話-最初の記録.md) — `REGISTERED / LOCKED`
+40. [第40話「地図の外」](./chapters/14-黒い壁/040-第40話-地図の外.md) — `REGISTERED / LOCKED`
+
+第14章は第13章の後を描く。第13章本文は未登録のため、第34話〜第37話の登録時に第14章の登録済み事実と整合させる。
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
