@@ -66,7 +66,7 @@
 - [`35_CHAPTER_24_INTEGRATION_CORRECTIONS.md`](./35_CHAPTER_24_INTEGRATION_CORRECTIONS.md)：第15章・第16章を基準とする、第21章・第24章の鉱物調査統合補正。1598年までの状態と旧値失効について有効。
 - [`37_CHAPTER_25_INTEGRATION_CORRECTIONS.md`](./37_CHAPTER_25_INTEGRATION_CORRECTIONS.md)：1599年研究棟、1600年限定着工、1604年炉建屋完成・国内鉱山再調査、マーサと惟歳の幼年期に関する統合補正。
 - [`39_CHAPTER_26_INTEGRATION_CORRECTIONS.md`](./39_CHAPTER_26_INTEGRATION_CORRECTIONS.md)：1601年以後の新規西方地表調査、1605年の正式納入及び未確認試料特別輸送制度に関する統合補正。
-- [`40_YAZAKI_YUZU_MARRIAGE_AND_NAME_CORRECTION.md`](./40_YAZAKI_YUZU_MARRIAGE_AND_NAME_CORRECTION.md)：第20章時点の惟・柚の婚姻及び、第20章以降の正式姓名「矢崎柚」に関する統合補正。
+- [`40_YAZAKI_YUZU_MARRIAGE_AND_NAME_CORRECTION.md`](./40_YAZAKI_YUZU_MARRIAGE_AND_NAME_CORRECTION.md)：第21章以降の惟・柚の婚姻及び、正式姓名「矢崎柚」に関する統合補正。
 
 第1章の登録本文は、本文ファイルおよび登録台帳を直接参照する。
 
@@ -100,8 +100,9 @@
 - 1605年11月：未確認試料特別輸送暫定規程を制定し、第1回国内輸送を完了
 - 西方試料の物質名、第92元素含有、国内候補石との同一性、燃料適合性は未確認
 - 第2回・第3回国内輸送及び3回後の規程再検討は未実施
-- 第20章時点で惟と柚は婚姻済み
-- 第20章以降の柚の正式姓名：矢崎柚
+- 第21章以降、惟と柚は婚姻済み
+- 第21章以降の柚の正式姓名：矢崎柚
+- 第20章は婚姻・姓名統合補正の対象外
 - 惟、柚、惟歳、マーサの出国：1611年5月
 - 1611年12月2日：破局
 - マーサ死亡：1632年4月、33歳
