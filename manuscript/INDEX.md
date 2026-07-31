@@ -126,6 +126,12 @@
 62. [第62話「ねじ一本」](./chapters/21-御前会議/062-第62話-ねじ一本.md) — `REGISTERED / LOCKED`
 63. [第63話「二十年」](./chapters/21-御前会議/063-第63話-二十年.md) — `REGISTERED / LOCKED`
 
+## 第22章「入国」
+
+64. [第64話「古い紙」](./chapters/22-入国/064-第64話-古い紙.md) — `REGISTERED / LOCKED`
+65. [第65話「アユタヤ日本人町」](./chapters/22-入国/065-第65話-アユタヤ日本人町.md) — `REGISTERED / LOCKED`
+66. [第66話「平戸」](./chapters/22-入国/066-第66話-平戸.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
