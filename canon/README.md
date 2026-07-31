@@ -25,7 +25,7 @@
 - [`03_STATUS_SLAVERY_AND_SELECTED.md`](./03_STATUS_SLAVERY_AND_SELECTED.md)：奴隷、自由民、選民、特別選民
 - [`04_CHARACTERS.md`](./04_CHARACTERS.md)：主要人物
 - [`05_GEOGRAPHY_MILITARY_AND_PORTS.md`](./05_GEOGRAPHY_MILITARY_AND_PORTS.md)：地理、軍制、港湾
-- [`06_RESEARCH_TECHNOLOGY_AND_RECORDS.md`](./06_RESEARCH_TECHNOLOGY_AND_RECORDS.md)：技術史、核研究、記録制度。第21章・第24章・第25章・第26章・第27章・第28章については後続の登録本文正典及び統合補正を優先する。
+- [`06_RESEARCH_TECHNOLOGY_AND_RECORDS.md`](./06_RESEARCH_TECHNOLOGY_AND_RECORDS.md)：技術史、核研究、記録制度。第21章・第24章・第25章・第26章・第27章・第28章・第29章については後続の登録本文正典及び統合補正を優先する。
 - [`07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md`](./07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md)：事件、証拠、章別繰越
 - [`08_LATE_STORY_AND_DISASTER.md`](./08_LATE_STORY_AND_DISASTER.md)：後編、アズナル、1611年破局
 - [`23_MORIMOTO_FAMILY_CANON.md`](./23_MORIMOTO_FAMILY_CANON.md)：森本一房、右近、左近
@@ -62,6 +62,7 @@
 - [`38_CHAPTER_26_REGISTERED_CANON.md`](./38_CHAPTER_26_REGISTERED_CANON.md)：第26章「納品」
 - [`42_CHAPTER_27_REGISTERED_CANON.md`](./42_CHAPTER_27_REGISTERED_CANON.md)：第27章「炉」
 - [`43_CHAPTER_28_REGISTERED_CANON.md`](./43_CHAPTER_28_REGISTERED_CANON.md)：第28章「実験」
+- [`44_CHAPTER_29_REGISTERED_CANON.md`](./44_CHAPTER_29_REGISTERED_CANON.md)：第29章「噂」
 
 ## 統合補正
 
@@ -114,6 +115,9 @@
 - 1608年7月：人間側が加工した燃料一組で核発電を確認。臨界、停止操作及び残留熱を確認。安全、長期運転、定格及び送電端5MWは未確認
 - 1608年7月：御前から「選民地区まで送電線を通せ」と国家命令が示され、経路測量を開始
 - 1609年1月：賢人会議の九人が、御前がいなくなる日が近い可能性を共有。一般治安、軍務警備及び近衛警備の三系統分離を再確認
+- 1610年11月18日：送電線を黒い壁へ接続。接続用設備面が露出するが通電は行わない
+- 1610年12月1日：黒い壁へ送電端5MWを30分通電。接続部周囲に細い光が出現。首都の一部で供給制限
+- 1610年12月3日〜6日：御前移動及び市民選別の噂からリデル市総督府襲撃へ発展。総督エルダ家ラウル死亡。軍が鎮圧し、内務卿ミレアは親族として本件調査及び裁定から忌避
 - 西方試料の物質名、第92元素含有、国内候補石との同一性、燃料適合性は未確認
 - 第21章以降、惟と柚は婚姻済み
 - 第21章以降の柚の正式姓名：矢崎柚
@@ -130,6 +134,7 @@
 - 第26章：1601年〜1605年、西方貿易路、往復納品、港受入、未確認試料特別輸送、第1回国内輸送
 - 第27章：1606年〜1607年、炉規模照合、付属設備着工、実寸模型、2家族の休日、レオニス逮捕
 - 第28章：1607年〜1609年、核爆発実験、核発電実験、選民地区への送電命令、三系統分離及び御前離脱可能性の共有
+- 第29章：1610年11月〜12月、黒い壁への送電線接続、5MW通電、噂の拡散、リデル暴動、ラウル死亡及びミレアの忌避
 - 惟歳の1634年3月時点の所在・生死は未確認
 
 各数量、台詞、知識範囲、未確認事項は、対応する登録本文正典を参照する。
