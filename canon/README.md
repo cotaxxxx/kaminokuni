@@ -25,7 +25,7 @@
 - [`03_STATUS_SLAVERY_AND_SELECTED.md`](./03_STATUS_SLAVERY_AND_SELECTED.md)：奴隷、自由民、選民、特別選民
 - [`04_CHARACTERS.md`](./04_CHARACTERS.md)：主要人物
 - [`05_GEOGRAPHY_MILITARY_AND_PORTS.md`](./05_GEOGRAPHY_MILITARY_AND_PORTS.md)：地理、軍制、港湾
-- [`06_RESEARCH_TECHNOLOGY_AND_RECORDS.md`](./06_RESEARCH_TECHNOLOGY_AND_RECORDS.md)：技術史、核研究、記録制度。第21章・第24章・第25章・第26章・第27章については後続の登録本文正典及び統合補正を優先する。
+- [`06_RESEARCH_TECHNOLOGY_AND_RECORDS.md`](./06_RESEARCH_TECHNOLOGY_AND_RECORDS.md)：技術史、核研究、記録制度。第21章・第24章・第25章・第26章・第27章・第28章については後続の登録本文正典及び統合補正を優先する。
 - [`07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md`](./07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md)：事件、証拠、章別繰越
 - [`08_LATE_STORY_AND_DISASTER.md`](./08_LATE_STORY_AND_DISASTER.md)：後編、アズナル、1611年破局
 - [`23_MORIMOTO_FAMILY_CANON.md`](./23_MORIMOTO_FAMILY_CANON.md)：森本一房、右近、左近
@@ -61,6 +61,7 @@
 - [`36_CHAPTER_25_REGISTERED_CANON.md`](./36_CHAPTER_25_REGISTERED_CANON.md)：第25章「マーサ」
 - [`38_CHAPTER_26_REGISTERED_CANON.md`](./38_CHAPTER_26_REGISTERED_CANON.md)：第26章「納品」
 - [`42_CHAPTER_27_REGISTERED_CANON.md`](./42_CHAPTER_27_REGISTERED_CANON.md)：第27章「炉」
+- [`43_CHAPTER_28_REGISTERED_CANON.md`](./43_CHAPTER_28_REGISTERED_CANON.md)：第28章「実験」
 
 ## 統合補正
 
@@ -108,6 +109,11 @@
 - 1606年夏：炉本体、完成燃料、初回臨界及び送電は未実施
 - 1607年10月まで：港から研究所までの3回の輸送試行を完了し、未確認試料特別輸送暫定規程を通常規程へ移行
 - 1607年10月：官許新聞がレオニス・ヴァレル逮捕、軍務省管理、捜査中、詳細非公表を報道
+- 1607年11月：ベガ島東方約200キロメートルで、御前側交付物による核爆発実験を実施。実験船は帰還せず、参加人員は全員帰還
+- 1607年11月以後：実験地点周辺を期限未定の立入、漁労及び採水禁止区域とする。「神は生きている」という言葉が広がる
+- 1608年7月：人間側が加工した燃料一組で核発電を確認。臨界、停止操作及び残留熱を確認。安全、長期運転、定格及び送電端5MWは未確認
+- 1608年7月：御前から「選民地区まで送電線を通せ」と国家命令が示され、経路測量を開始
+- 1609年1月：賢人会議の九人が、御前がいなくなる日が近い可能性を共有。一般治安、軍務警備及び近衛警備の三系統分離を再確認
 - 西方試料の物質名、第92元素含有、国内候補石との同一性、燃料適合性は未確認
 - 第21章以降、惟と柚は婚姻済み
 - 第21章以降の柚の正式姓名：矢崎柚
@@ -123,6 +129,7 @@
 - 第25章：1600年〜1604年、原出力交付、限定着工、炉建屋完成、国内再調査停止、マーサと惟歳の幼年期
 - 第26章：1601年〜1605年、西方貿易路、往復納品、港受入、未確認試料特別輸送、第1回国内輸送
 - 第27章：1606年〜1607年、炉規模照合、付属設備着工、実寸模型、2家族の休日、レオニス逮捕
+- 第28章：1607年〜1609年、核爆発実験、核発電実験、選民地区への送電命令、三系統分離及び御前離脱可能性の共有
 - 惟歳の1634年3月時点の所在・生死は未確認
 
 各数量、台詞、知識範囲、未確認事項は、対応する登録本文正典を参照する。
