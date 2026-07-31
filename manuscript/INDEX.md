@@ -120,6 +120,12 @@
 59. [第59話「借り」](./chapters/20-借り/059-第59話-借り.md) — `REGISTERED / LOCKED`
 60. [第60話「石」](./chapters/20-借り/060-第60話-石.md) — `REGISTERED / LOCKED`
 
+## 第21章「御前会議」
+
+61. [第61話「五人」](./chapters/21-御前会議/061-第61話-五人.md) — `REGISTERED / LOCKED`
+62. [第62話「ねじ一本」](./chapters/21-御前会議/062-第62話-ねじ一本.md) — `REGISTERED / LOCKED`
+63. [第63話「二十年」](./chapters/21-御前会議/063-第63話-二十年.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
