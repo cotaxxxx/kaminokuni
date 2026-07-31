@@ -22,6 +22,7 @@
 - [第17章「帰還」登録台帳](./management/17-帰還-登録台帳.md)
 - [第18章「セル」登録台帳](./management/18-セル-登録台帳.md)
 - [第19章「坑道」登録台帳](./management/19-坑道-登録台帳.md)
+- [第20章「借り」登録台帳](./management/20-借り-登録台帳.md)
 - [外伝「市」登録台帳](./management/外伝-市-登録台帳.md)
 
 ## 登録済み章
@@ -45,6 +46,7 @@
 - 第17章「帰還」：第50話〜第51話 `REGISTERED / LOCKED`
 - 第18章「セル」：第52話〜第53話 `REGISTERED / LOCKED`
 - 第19章「坑道」：第54話〜第56話 `REGISTERED / LOCKED`
+- 第20章「借り」：第57話〜第60話 `REGISTERED / LOCKED`
 
 ## 登録済み外伝
 
