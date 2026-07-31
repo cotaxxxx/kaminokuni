@@ -132,6 +132,12 @@
 65. [第65話「アユタヤ日本人町」](./chapters/22-入国/065-第65話-アユタヤ日本人町.md) — `REGISTERED / LOCKED`
 66. [第66話「平戸」](./chapters/22-入国/066-第66話-平戸.md) — `REGISTERED / LOCKED`
 
+## 第23章「桜」
+
+67. [第67話「肥後」](./chapters/23-桜/067-第67話-肥後.md) — `REGISTERED / LOCKED`
+68. [第68話「桜」](./chapters/23-桜/068-第68話-桜.md) — `REGISTERED / LOCKED`
+69. [第69話「惟と柚」](./chapters/23-桜/069-第69話-惟と柚.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
