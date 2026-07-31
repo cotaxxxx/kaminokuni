@@ -150,6 +150,12 @@
 74. [第74話「建屋」](./chapters/25-マーサ/074-第74話-建屋.md) — `REGISTERED / LOCKED`
 75. [第75話「採らなかった石」](./chapters/25-マーサ/075-第75話-採らなかった石.md) — `REGISTERED / LOCKED`
 
+## 第26章「納品」
+
+76. [第76話「貿易」](./chapters/26-納品/076-第76話-貿易.md) — `REGISTERED / LOCKED`
+77. [第77話「往復」](./chapters/26-納品/077-第77話-往復.md) — `REGISTERED / LOCKED`
+78. [第78話「軍務卿」](./chapters/26-納品/078-第78話-軍務卿.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
