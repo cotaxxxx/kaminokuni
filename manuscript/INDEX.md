@@ -113,6 +113,13 @@
 55. [第55話「毒気」](./chapters/19-坑道/055-第55話-毒気.md) — `REGISTERED / LOCKED`
 56. [第56話「送風」](./chapters/19-坑道/056-第56話-送風.md) — `REGISTERED / LOCKED`
 
+## 第20章「借り」
+
+57. [第57話「監督官」](./chapters/20-借り/057-第57話-監督官.md) — `REGISTERED / LOCKED`
+58. [第58話「決定」](./chapters/20-借り/058-第58話-決定.md) — `REGISTERED / LOCKED`
+59. [第59話「借り」](./chapters/20-借り/059-第59話-借り.md) — `REGISTERED / LOCKED`
+60. [第60話「石」](./chapters/20-借り/060-第60話-石.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
