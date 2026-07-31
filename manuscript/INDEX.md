@@ -144,6 +144,12 @@
 71. [第71話「縄張り」](./chapters/24-研究所/071-第71話-縄張り.md) — `REGISTERED / LOCKED`
 72. [第72話「候補鉱石」](./chapters/24-研究所/072-第72話-候補鉱石.md) — `REGISTERED / LOCKED`
 
+## 第25章「マーサ」
+
+73. [第73話「進捗」](./chapters/25-マーサ/073-第73話-進捗.md) — `REGISTERED / LOCKED`
+74. [第74話「建屋」](./chapters/25-マーサ/074-第74話-建屋.md) — `REGISTERED / LOCKED`
+75. [第75話「採らなかった石」](./chapters/25-マーサ/075-第75話-採らなかった石.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
