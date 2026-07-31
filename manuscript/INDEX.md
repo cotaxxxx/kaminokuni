@@ -107,6 +107,12 @@
 52. [第52話「銀山」](./chapters/18-セル/052-第52話-銀山.md) — `REGISTERED / LOCKED`
 53. [第53話「封鎖」](./chapters/18-セル/053-第53話-封鎖.md) — `REGISTERED / LOCKED`
 
+## 第19章「坑道」
+
+54. [第54話「橋」](./chapters/19-坑道/054-第54話-橋.md) — `REGISTERED / LOCKED`
+55. [第55話「毒気」](./chapters/19-坑道/055-第55話-毒気.md) — `REGISTERED / LOCKED`
+56. [第56話「送風」](./chapters/19-坑道/056-第56話-送風.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
