@@ -102,6 +102,11 @@
 50. [第50話「手紙」](./chapters/17-帰還/050-第50話-手紙.md) — `REGISTERED / LOCKED`
 51. [第51話「右近」](./chapters/17-帰還/051-第51話-右近.md) — `REGISTERED / LOCKED`
 
+## 第18章「セル」
+
+52. [第52話「銀山」](./chapters/18-セル/052-第52話-銀山.md) — `REGISTERED / LOCKED`
+53. [第53話「封鎖」](./chapters/18-セル/053-第53話-封鎖.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
