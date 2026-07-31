@@ -138,6 +138,12 @@
 68. [第68話「桜」](./chapters/23-桜/068-第68話-桜.md) — `REGISTERED / LOCKED`
 69. [第69話「惟と柚」](./chapters/23-桜/069-第69話-惟と柚.md) — `REGISTERED / LOCKED`
 
+## 第24章「研究所」
+
+70. [第70話「確かめる場所」](./chapters/24-研究所/070-第70話-確かめる場所.md) — `REGISTERED / LOCKED`
+71. [第71話「縄張り」](./chapters/24-研究所/071-第71話-縄張り.md) — `REGISTERED / LOCKED`
+72. [第72話「候補鉱石」](./chapters/24-研究所/072-第72話-候補鉱石.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
