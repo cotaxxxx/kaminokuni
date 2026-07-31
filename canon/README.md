@@ -25,7 +25,7 @@
 - [`03_STATUS_SLAVERY_AND_SELECTED.md`](./03_STATUS_SLAVERY_AND_SELECTED.md)：奴隷、自由民、選民、特別選民
 - [`04_CHARACTERS.md`](./04_CHARACTERS.md)：主要人物
 - [`05_GEOGRAPHY_MILITARY_AND_PORTS.md`](./05_GEOGRAPHY_MILITARY_AND_PORTS.md)：地理、軍制、港湾
-- [`06_RESEARCH_TECHNOLOGY_AND_RECORDS.md`](./06_RESEARCH_TECHNOLOGY_AND_RECORDS.md)：技術史、核研究、記録制度
+- [`06_RESEARCH_TECHNOLOGY_AND_RECORDS.md`](./06_RESEARCH_TECHNOLOGY_AND_RECORDS.md)：技術史、核研究、記録制度。第21章・第24章の鉱物調査については統合補正を優先する。
 - [`07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md`](./07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md)：事件、証拠、章別繰越
 - [`08_LATE_STORY_AND_DISASTER.md`](./08_LATE_STORY_AND_DISASTER.md)：後編、アズナル、1611年破局
 - [`23_MORIMOTO_FAMILY_CANON.md`](./23_MORIMOTO_FAMILY_CANON.md)：森本一房、右近、左近
@@ -54,14 +54,14 @@
 - [`27_CHAPTER_18_REGISTERED_CANON.md`](./27_CHAPTER_18_REGISTERED_CANON.md)：第18章「セル」
 - [`29_CHAPTER_19_REGISTERED_CANON.md`](./29_CHAPTER_19_REGISTERED_CANON.md)：第19章「坑道」
 - [`30_CHAPTER_20_REGISTERED_CANON.md`](./30_CHAPTER_20_REGISTERED_CANON.md)：第20章「借り」
-- [`31_CHAPTER_21_REGISTERED_CANON.md`](./31_CHAPTER_21_REGISTERED_CANON.md)：第21章「御前会議」
+- [`31_CHAPTER_21_REGISTERED_CANON.md`](./31_CHAPTER_21_REGISTERED_CANON.md)：第21章「御前会議」。第62話は作者指示による例外改訂済み。
 - [`32_CHAPTER_22_REGISTERED_CANON.md`](./32_CHAPTER_22_REGISTERED_CANON.md)：第22章「入国」
 - [`33_CHAPTER_23_REGISTERED_CANON.md`](./33_CHAPTER_23_REGISTERED_CANON.md)：第23章「桜」
-- [`34_CHAPTER_24_REGISTERED_CANON.md`](./34_CHAPTER_24_REGISTERED_CANON.md)：第24章「研究所」
+- [`34_CHAPTER_24_REGISTERED_CANON.md`](./34_CHAPTER_24_REGISTERED_CANON.md)：第24章「研究所」。第72話は作者指示による例外改訂済み。
 
 ## 統合補正
 
-- [`35_CHAPTER_24_INTEGRATION_CORRECTIONS.md`](./35_CHAPTER_24_INTEGRATION_CORRECTIONS.md)：第24章登録に伴う研究正典の旧稿値補正
+- [`35_CHAPTER_24_INTEGRATION_CORRECTIONS.md`](./35_CHAPTER_24_INTEGRATION_CORRECTIONS.md)：第15章・第16章を基準とする、第21章・第24章の鉱物調査統合補正。`06_RESEARCH_TECHNOLOGY_AND_RECORDS.md` の旧「西方3採取区」関連値より優先する。
 
 第1章の登録本文は、本文ファイルおよび登録台帳を直接参照する。
 
@@ -75,6 +75,11 @@
 - 外国側呼称：神乃国
 - 当事国の自称：不明
 - 神記と西暦：`神記N年 = 西暦（N - 1284）年`
+- 候補鉱物の計画調査地点：アライ北麓、南方の陸地の2か所
+- アライ調査：鉱床存在可能性を推定。標本未取得
+- 南方調査：候補域到達未確認、目的鉱物未発見、標本未取得、19名死亡
+- 1597年・1598年の物理的候補現物：セル地区国有銀山の国内第1候補鉱石1点のみ
+- 旧「西方3採取区」、採掘量、精錬量、比較試料の値は使用しない
 - 惟、柚、惟歳、マーサの出国：1611年5月
 - 1611年12月2日：破局
 - マーサ死亡：1632年4月、33歳
@@ -82,7 +87,6 @@
 - 第21章：1597年1月、黒い壁の帰還目的と技術立国二十年構想
 - 第22章：1632年、マーサの古紙、アユタヤ、一房、平戸入国
 - 第23章：1634年2月〜3月末、川尻、熊本、阿蘇、峯村、惟・柚との再会
-- 第23章末：柚が1597年記録を開き、御前会議期へ接続
 - 第24章：1598年9月、核技術研究所の制度設立、仮縄張り、国内第1候補鉱石の研究管理開始
 - 惟歳の1634年3月時点の所在・生死は未確認
 
