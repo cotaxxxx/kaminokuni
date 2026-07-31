@@ -25,6 +25,7 @@
 - [第20章「借り」登録台帳](./management/20-借り-登録台帳.md)
 - [第21章「御前会議」登録台帳](./management/21-御前会議-登録台帳.md)
 - [第22章「入国」登録台帳](./management/22-入国-登録台帳.md)
+- [第23章「桜」登録台帳](./management/23-桜-登録台帳.md)
 - [外伝「市」登録台帳](./management/外伝-市-登録台帳.md)
 
 ## 登録済み章
@@ -51,6 +52,7 @@
 - 第20章「借り」：第57話〜第60話 `REGISTERED / LOCKED`
 - 第21章「御前会議」：第61話〜第63話 `REGISTERED / LOCKED`
 - 第22章「入国」：第64話〜第66話 `REGISTERED / LOCKED`
+- 第23章「桜」：第67話〜第69話 `REGISTERED / LOCKED`
 
 ## 登録済み外伝
 
