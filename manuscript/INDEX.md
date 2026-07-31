@@ -90,6 +90,13 @@
 44. [第44話「しんがり」](./chapters/15-石/044-第44話-しんがり.md) — `REGISTERED / LOCKED`
 45. [第45話「帰還」](./chapters/15-石/045-第45話-帰還.md) — `REGISTERED / LOCKED`
 
+## 第16章「南方の陸地」
+
+46. [第46話「森本左近」](./chapters/16-南方の陸地/046-第46話-森本左近.md) — `REGISTERED / LOCKED`
+47. [第47話「密林」](./chapters/16-南方の陸地/047-第47話-密林.md) — `REGISTERED / LOCKED`
+48. [第48話「熱」](./chapters/16-南方の陸地/048-第48話-熱.md) — `REGISTERED / LOCKED`
+49. [第49話「帰路」](./chapters/16-南方の陸地/049-第49話-帰路.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
