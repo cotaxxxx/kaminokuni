@@ -6,177 +6,76 @@
 
 ## 優先規則
 
-作者が古い順に提示した資料を統合し、矛盾する場合は後から提示された内容を優先する。
+1. `REGISTERED / LOCKED` の登録本文
+2. 登録本文正典
+3. 作者承認正典
+4. 統合正典
+5. 設計・検討資料
 
-`REGISTERED / LOCKED` の本文に明示された事実は、登録前の構造整理・設計案より優先する。
+矛盾する場合は、同じ状態内では後から承認・登録された内容を優先する。詳細は [`CANON_RULES.md`](./CANON_RULES.md) と [`SOURCE_REGISTER.md`](./SOURCE_REGISTER.md) を参照する。
 
-登録済み外伝は登録済み本編を補完する。本編と抵触する場合は、先に固定された本編事実を維持し、外伝側で整合させる。
+## 基本正典
 
-詳細は [`CANON_RULES.md`](./CANON_RULES.md) を参照する。
-
-資料の提示順は [`SOURCE_REGISTER.md`](./SOURCE_REGISTER.md) に保存する。
-
-## 文書一覧
-
-- [`TITLE.md`](./TITLE.md)：現行正式題名、旧題、外国側国名呼称との区別
-- [`CANON_RULES.md`](./CANON_RULES.md)：正典の優先順位、状態、更新規則
-- [`SOURCE_REGISTER.md`](./SOURCE_REGISTER.md)：統合元資料の提示順と優先関係
-- [`TERMINOLOGY.md`](./TERMINOLOGY.md)：固有用語と表記基準
-- [`01_CHRONOLOGY_AND_CHAPTERS.md`](./01_CHRONOLOGY_AND_CHAPTERS.md)：暦、主要年表、編・章・話構成
-- [`02_STATE_GOVERNANCE_AND_LAW.md`](./02_STATE_GOVERNANCE_AND_LAW.md)：国家統治、国会、外務、港湾、行政、法域
-- [`03_STATUS_SLAVERY_AND_SELECTED.md`](./03_STATUS_SLAVERY_AND_SELECTED.md)：奴隷法、自由民、選民、特別選民
-- [`04_CHARACTERS.md`](./04_CHARACTERS.md)：主要人物の現行確定事項
-- [`05_GEOGRAPHY_MILITARY_AND_PORTS.md`](./05_GEOGRAPHY_MILITARY_AND_PORTS.md)：地理、人口、軍制、港湾拠点
-- [`06_RESEARCH_TECHNOLOGY_AND_RECORDS.md`](./06_RESEARCH_TECHNOLOGY_AND_RECORDS.md)：技術史、研究所、原子力、記録制度
-- [`07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md`](./07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md)：事件、証拠、章別確定事項、繰越修正
+- [`TITLE.md`](./TITLE.md)：正式題名、旧題、外国側国名呼称
+- [`CANON_RULES.md`](./CANON_RULES.md)：優先順位、状態、更新規則
+- [`SOURCE_REGISTER.md`](./SOURCE_REGISTER.md)：資料提示順と優先関係
+- [`TERMINOLOGY.md`](./TERMINOLOGY.md)：固有用語と表記
+- [`01_CHRONOLOGY_AND_CHAPTERS.md`](./01_CHRONOLOGY_AND_CHAPTERS.md)：暦、主要年表、章・話構成
+- [`02_STATE_GOVERNANCE_AND_LAW.md`](./02_STATE_GOVERNANCE_AND_LAW.md)：国家統治、法、行政
+- [`03_STATUS_SLAVERY_AND_SELECTED.md`](./03_STATUS_SLAVERY_AND_SELECTED.md)：奴隷、自由民、選民、特別選民
+- [`04_CHARACTERS.md`](./04_CHARACTERS.md)：主要人物
+- [`05_GEOGRAPHY_MILITARY_AND_PORTS.md`](./05_GEOGRAPHY_MILITARY_AND_PORTS.md)：地理、軍制、港湾
+- [`06_RESEARCH_TECHNOLOGY_AND_RECORDS.md`](./06_RESEARCH_TECHNOLOGY_AND_RECORDS.md)：技術史、核研究、記録制度
+- [`07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md`](./07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md)：事件、証拠、章別繰越
 - [`08_LATE_STORY_AND_DISASTER.md`](./08_LATE_STORY_AND_DISASTER.md)：後編、アズナル、1611年破局
-- [`09_CHAPTER_2_REGISTERED_CANON.md`](./09_CHAPTER_2_REGISTERED_CANON.md)：第2章登録本文、個別選別、金属札と行先票、旧3列構造の置換
-- [`10_CHAPTER_3_REGISTERED_CANON.md`](./10_CHAPTER_3_REGISTERED_CANON.md)：第3章登録本文、セル仮配置、市の600金貨、惟と柚の自由民化
-- [`11_CHAPTER_4_REGISTERED_CANON.md`](./11_CHAPTER_4_REGISTERED_CANON.md)：第4章登録本文、姓名、デルムンド二重帳簿、ハイセルの申立て、ヨナスの私信
-- [`12_SIDE_STORY_ICHI_REGISTERED_CANON.md`](./12_SIDE_STORY_ICHI_REGISTERED_CANON.md)：外伝「市」、長洲の出自、二つの店、レオニス、宗吉、600枚目、未登録姓
-- [`13_CHAPTER_5_REGISTERED_CANON.md`](./13_CHAPTER_5_REGISTERED_CANON.md)：第5章登録本文、御前会議、五年計画、240丁、トゥグルグとセーラ、光の有限速度仮説
-- [`14_CHAPTER_6_REGISTERED_CANON.md`](./14_CHAPTER_6_REGISTERED_CANON.md)：第6章登録本文、第三倉庫60丁、丹羽、右近、ハイセルの試用契約、国会軍務委員会
-- [`15_CHAPTER_7_REGISTERED_CANON.md`](./15_CHAPTER_7_REGISTERED_CANON.md)：第7章登録本文、リデル火災、第三倉庫、第74号、惟の救助、柚の三欄記録、濃紺の男
-- [`16_CHAPTER_8_REGISTERED_CANON.md`](./16_CHAPTER_8_REGISTERED_CANON.md)：第8章登録本文、第74号の囮可能性、南行き貨物、三欄式、七一族・五十家、血統認証、旧法上の例外登録
-- [`17_CHAPTER_9_REGISTERED_CANON.md`](./17_CHAPTER_9_REGISTERED_CANON.md)：第9章登録本文、エリアス急病、アドリアン、緊急記録保全申立て、五人の合同確認
-- [`18_CHAPTER_10_REGISTERED_CANON.md`](./18_CHAPTER_10_REGISTERED_CANON.md)：第10章登録本文、仮保全命令、第38号貨車、三翼運送社、十二箱、セル監査、オスカー・ベイル
-- [`19_CHAPTER_11_REGISTERED_CANON.md`](./19_CHAPTER_11_REGISTERED_CANON.md)：第11章登録本文、セル側認証写し、同じ番号の反対状態、ミハイル・ドーン、三翼運送社追加保全
-- [`20_CHAPTER_12_REGISTERED_CANON.md`](./20_CHAPTER_12_REGISTERED_CANON.md)：第12章登録本文、圧力筒と箱の寸法差、旧火薬庫方向、二つの届け先、三翼運送社記録保全
-- [`22_CHAPTER_13_REGISTERED_CANON.md`](./22_CHAPTER_13_REGISTERED_CANON.md)：第13章登録本文、光速測定、質量・エネルギー関係、エリアス死亡、三部保存、身元確認、婚姻、特別選民登録
-- [`21_CHAPTER_14_REGISTERED_CANON.md`](./21_CHAPTER_14_REGISTERED_CANON.md)：第14章登録本文、黒い壁との単独対話、核研究準備室、三部保存、第92元素、西方重鉱物予備調査
-- [`23_MORIMOTO_FAMILY_CANON.md`](./23_MORIMOTO_FAMILY_CANON.md)：森本右近太夫一房、森本右近、森本左近の系譜、第15章・第16章・旧第20章草稿の人物分離
-- [`24_CHAPTER_15_REGISTERED_CANON.md`](./24_CHAPTER_15_REGISTERED_CANON.md)：第15章登録本文、アライ予備調査、推定鉱床、採掘停止、しんがり、ハイセルの右手喪失、森本左近への接続
-- [`25_CHAPTER_16_REGISTERED_CANON.md`](./25_CHAPTER_16_REGISTERED_CANON.md)：第16章登録本文、森本左近、南方候補域未達、熱病、死亡者19名、探索断念
-- [`26_CHAPTER_17_REGISTERED_CANON.md`](./26_CHAPTER_17_REGISTERED_CANON.md)：第17章登録本文、ハイセルの手紙、国内候補石、隔離輸送、右近と左近の再会、首都への接続
-- [`27_CHAPTER_18_REGISTERED_CANON.md`](./27_CHAPTER_18_REGISTERED_CANON.md)：第18章登録本文、セル南東国有銀山、候補石の現地封印、権限分離、入坑再審査、行政的封鎖
-- [`28_CHAPTER_19_APPROVED_DESIGN.md`](./28_CHAPTER_19_APPROVED_DESIGN.md)：第19章事故責任構造の作者承認設計、ガレオ・ザイル・レオニスの責任分離
-- [`29_CHAPTER_19_REGISTERED_CANON.md`](./29_CHAPTER_19_REGISTERED_CANON.md)：第19章登録本文、橋、旧試掘坑事故、候補石目視、救助、補助送風、責任連鎖
-- [`30_CHAPTER_20_REGISTERED_CANON.md`](./30_CHAPTER_20_REGISTERED_CANON.md)：第20章登録本文、監督官、宗吉の坑内経験と死亡、候補石回収、初回測定、共同封印
-- [`UNRESOLVED.md`](./UNRESOLVED.md)：現時点の未確定事項
-- [`SUPERSEDED.md`](./SUPERSEDED.md)：後出資料により置換された旧値
+- [`23_MORIMOTO_FAMILY_CANON.md`](./23_MORIMOTO_FAMILY_CANON.md)：森本一房、右近、左近
+- [`UNRESOLVED.md`](./UNRESOLVED.md)：未確定事項
+- [`SUPERSEDED.md`](./SUPERSEDED.md)：置換された旧値
 
-## 現行の重要な基準値
+## 登録本文正典
+
+- [`09_CHAPTER_2_REGISTERED_CANON.md`](./09_CHAPTER_2_REGISTERED_CANON.md)：第2章「南へ」
+- [`10_CHAPTER_3_REGISTERED_CANON.md`](./10_CHAPTER_3_REGISTERED_CANON.md)：第3章「歓楽街セル」
+- [`11_CHAPTER_4_REGISTERED_CANON.md`](./11_CHAPTER_4_REGISTERED_CANON.md)：第4章「デルムンド」
+- [`12_SIDE_STORY_ICHI_REGISTERED_CANON.md`](./12_SIDE_STORY_ICHI_REGISTERED_CANON.md)：外伝「市」
+- [`13_CHAPTER_5_REGISTERED_CANON.md`](./13_CHAPTER_5_REGISTERED_CANON.md)：第5章「光の遅れ」
+- [`14_CHAPTER_6_REGISTERED_CANON.md`](./14_CHAPTER_6_REGISTERED_CANON.md)：第6章「キジルバシュ」
+- [`15_CHAPTER_7_REGISTERED_CANON.md`](./15_CHAPTER_7_REGISTERED_CANON.md)：第7章「リデル炎上」
+- [`16_CHAPTER_8_REGISTERED_CANON.md`](./16_CHAPTER_8_REGISTERED_CANON.md)：第8章「選民」
+- [`17_CHAPTER_9_REGISTERED_CANON.md`](./17_CHAPTER_9_REGISTERED_CANON.md)：第9章「扉を開く者」
+- [`18_CHAPTER_10_REGISTERED_CANON.md`](./18_CHAPTER_10_REGISTERED_CANON.md)：第10章「三枚の翼」
+- [`19_CHAPTER_11_REGISTERED_CANON.md`](./19_CHAPTER_11_REGISTERED_CANON.md)：第11章「記録の行方」
+- [`20_CHAPTER_12_REGISTERED_CANON.md`](./20_CHAPTER_12_REGISTERED_CANON.md)：第12章「箱」
+- [`22_CHAPTER_13_REGISTERED_CANON.md`](./22_CHAPTER_13_REGISTERED_CANON.md)：第13章「光の重さ」
+- [`21_CHAPTER_14_REGISTERED_CANON.md`](./21_CHAPTER_14_REGISTERED_CANON.md)：第14章「黒い壁」
+- [`24_CHAPTER_15_REGISTERED_CANON.md`](./24_CHAPTER_15_REGISTERED_CANON.md)：第15章「石」
+- [`25_CHAPTER_16_REGISTERED_CANON.md`](./25_CHAPTER_16_REGISTERED_CANON.md)：第16章「南方の陸地」
+- [`26_CHAPTER_17_REGISTERED_CANON.md`](./26_CHAPTER_17_REGISTERED_CANON.md)：第17章「帰還」
+- [`27_CHAPTER_18_REGISTERED_CANON.md`](./27_CHAPTER_18_REGISTERED_CANON.md)：第18章「セル」
+- [`29_CHAPTER_19_REGISTERED_CANON.md`](./29_CHAPTER_19_REGISTERED_CANON.md)：第19章「坑道」
+- [`30_CHAPTER_20_REGISTERED_CANON.md`](./30_CHAPTER_20_REGISTERED_CANON.md)：第20章「借り」
+- [`31_CHAPTER_21_REGISTERED_CANON.md`](./31_CHAPTER_21_REGISTERED_CANON.md)：第21章「御前会議」
+- [`32_CHAPTER_22_REGISTERED_CANON.md`](./32_CHAPTER_22_REGISTERED_CANON.md)：第22章「入国」
+
+第1章の登録本文は、本文ファイルおよび登録台帳を直接参照する。
+
+## 承認設計
+
+- [`28_CHAPTER_19_APPROVED_DESIGN.md`](./28_CHAPTER_19_APPROVED_DESIGN.md)：第19章の事故責任構造
+
+## 現行基準
 
 - 正式題名：**The Black Wall**
-- 外国側の国名呼称：神乃国
-- 当事国の正式な自称国名：不明
+- 外国側呼称：神乃国
+- 当事国の自称：不明
 - 神記と西暦：`神記N年 = 西暦（N - 1284）年`
-- 一般人口：約60万人
-- 選民人口：約1万人（一般人口の外数）
-- 選民社会：七一族・五十家
-- 制度圏人口：約61万人
-- 神乃国破局：1611年12月2日
-- 日本側の地震・津波表記：慶長奥州地震
-- 惟・柚・惟歳・マーサの出国：1611年5月
-- 市の出生地：豊前国宇佐、港町長洲
-- 市の本人選定・未登録姓：長洲
-- 市の法的登録名・墓碑名：市
-- 市の死亡：1589年冬、24歳
-- 惟と柚の自由民化：1590年3月
-- 惟の首都守備軍工兵隊配属：1590年4月
-- ハイセルの資格：海外勤務契約者遺族保護資格
-- ハイセルのリデル傭兵隊試用契約：1590年7月、3か月
-- ハイセルの契約更新：1590年秋、6か月
-- 1590年7月のセーラ：19歳、総統アルヴァの実娘
-- 第三倉庫で確認された小銃：60丁
-- デルムンド発送240丁のうち未確認：180丁
-- 第74号貨車：旧石切場支線で空車として発見。北方誘導用の囮である可能性は未確認
-- 南行き第38号貨車：機械部品十二箱、重量欄空白、セル市鉱山保全部宛て、三翼運送社へ引渡し
-- 十二箱：同じ内部構造なら小銃180丁を収納し得る。内容物は未確認
-- 三翼運送社印：濃紺の男の懐中時計に見えた紋と類似構造。同一性は未確認
-- セル市長室：火災二日前の特別輸送申請を認証。レオニス本人の認識・指示は未確認
-- オスカー・ベイル：セル副市長兼鉱山保全部長。火災二日前の特別輸送を代理認証
-- セル側三認証写し：設計、製造、圧力試験が「あり」。真正性は未確認
-- バビロン技術院側：同じ三項目の発行記録は「なし」
-- ミハイル・ドーン：三翼運送社セル支所所属。火災当日から欠勤し、所在不明
-- 三翼運送社追加保全：第32話末に命令発出。第33話で対象記録を封印
-- 南鉱区第4排水所：圧力筒十二基が実在し、仮運転中
-- 圧力筒胴部外径：64センチメートル
-- 十二箱の外幅：58センチメートル。現存圧力筒は当該箱へ収納不可能
-- 圧力筒搬送：カール・メッツは平荷台二台で運ばれたと証言
-- 十二箱搬送：カールは三翼運送社の荷車三台が旧火薬庫方面へ進んだと証言
-- 到着日：セル市役所は火災翌日、三翼運送社は火災二日後と記録。一日差の理由は未確認
-- 正式な届け先：南鉱区第4排水所
-- 配車指示書裏面：無署名で「旧庫」。旧火薬庫を指すと説明される
-- 鉱山橋通行票：第17号、第22号、第31号の三台とも確認できない
-- 旧火薬庫：内部立入り命令は未発出。出入口のみ現状保存
-- マティアス・レーン：国会軍務委員会正式委員
-- 作者事実：濃紺の男はレオニス・ヴァレル本人。第14章時点の作中人物には未確定
-- 選民資格者による緊急記録保全申立て：成年の選民が個人名義で申し立て、内務系統が審査する
-- セーラの申立て：五記録に限定して仮保全命令が発出済み
-- 火災四日後の光速測定：光源運動による前後差は装置誤差に埋もれ、加算・非加算を判定できない
-- 質量・エネルギー関係：直接導出は `ΔE＝Δm c²`。`E₀＝mc²` は基準選択を含み、実験未確認
-- エリアス：第35話で暫定記録を確認した日の夜に死亡。医師は胸部発作と考えるが、解剖がなく死因未確定
-- エリアス最後の紙片：「測れないからといって」まで。続きは不明
-- 暫定記録：総統府封印庫、技術院、内務省封印庫の三部で保存し、半年ごとに照合
-- トゥグルグ：ムガール帝国第14王子であることを複数記録で確認
-- トゥグルグの手続順：購入契約終了、自由民登録、婚姻、セレネ家氏族姓使用、血統によらない特別選民登録
-- 特別選民登録：約500年前の法典に基づき復活適用。血統は変更せず、古い設備の血統認証は付与しない
-- 御前会議：総統、近衛卿、内務卿、軍務卿の「総統と三卿」
-- 技術卿：選民または自由民が就任可能。御前会議の常任構成員ではない
-- 黒い壁の声：御前との同一性、正体、人数、姿、所在、目的は未確認
-- 核研究準備室：研究、行政、記録、警備を分離
-- 重要研究記録：総統府封印庫、技術院、内務省封印庫の三部
-- 第92元素：名称ウラニウム。人間側では存在、番号、性質とも未確認の探索仮説
-- 西方重鉱物予備調査：中核候補は惟、セーラ、ハイセル、柚。トゥグルグはバビロンに残る
-- 調査隊：計二十三人、上限二十五人。通訳と案内人は現地雇用
-- 1592年7月のアライ予備調査：山地行動48名。神乃国側17名、現地通訳1名、旧直属隊30名
-- 駱駝の首：地下約70メートルに目的鉱床がある可能性を推定。石そのものとウラニウムは未確認
-- 採掘見積り：最低300人、安全と継続を考慮すれば400人。現契約では採掘しない
-- 旧直属隊：30名がしんがりへ残り、帰還確認は3名。残る27名は未確認
-- ハイセル：第45話で利き手の右手首から先を失った状態で帰還。負傷経過は未確認
-- 森本左近：第15章末でペトンへの接続を示し、第16章で南方探索を指揮する
-- 森本左近の剣術：丸目蔵人からタイ捨流を学び、目録を受ける。免許皆伝とはしない
-- 南方候補域：作者設定上、後世のオーストラリア北部レンジャー鉱山周辺に相当。作中では現代地名を使用しない
-- 南方探索：上陸者39名、浜5名、内陸34名。候補域へ到達せず、上陸22日目に探索断念
-- 南方熱病：病名・病原体・虫媒介は未確認
-- 南方探索帰還：上陸39日目、内陸帰還15名、浜残留5名、生存20名、死亡19名
-- 目的鉱物：南方では未発見。候補域への到達も未確認で、不存在は断定しない
-- ハイセルの転身：実家へ戻り、残った手で帳簿を書き、商人となる意思を示す
-- ハイセルの中央アジア計画：少人数の確認班、新契約、賃金、責任、停止権、箱と封印を準備。契約成立と候補石採取は未確認
-- 国内候補石：国内銀山で条件に近い候補石が見つかったとの手紙。周囲の岩ごと封印され、未確認
-- 宗吉の関与・死亡：第17章では先取りしない
-- ペトン隔離：南方生存者20名を3日間隔離後、《瑞鳳》で隔離輸送する
-- リデル帰還：ペトン帰還から23日後。左近と部下16名は隔離継続、惟・柚・セーラは首都へ向かう
-- 右近と左近：3年ぶりに隔離線越しで再会。左近は生還者16名とリデルへ残る
-- レオニス経路：セル周辺の鉱山会社、歓楽街、商会、三翼運送社、資金記録に一致があるが、直接命令と候補石への関与は未確認
-- 第18章候補石：セル南東の国有銀山奥部で、無名鉱夫が黒い鉱物と黄色または緑色の皮膜を目視する
-- 第18章現地封印：候補石は未回収。露出岩壁を残し、支坑入口を封鎖する
-- 第18章権限分離：中央鉱山局、セル地区監督署、技術省、トゥグルグ、セーラ、惟、柚、現場責任者の権限を分ける
-- 第18章行政的封鎖：入坑再審査、責任者前倒し着任、原本提出要求、道路重量制限、輸送拒否が生じる。レオニスの直接命令は未確認
-- 宗吉：鉱夫ではなく取り立て屋。第18章の発見班・保全班には含まれず、本章には登場しない
-- 第19章旧試掘坑：10年以上前に中止された坑道をガレオ着任後に整備名目で再開・延長する
-- 第19章事故：鳥2羽が死亡し、見張り2名が倒れる。2名は生存状態で救助される
-- 第19章候補石目視：惟とセーラが約15歩離れて黒い候補石、細い筋、黄色または緑色の皮膜を確認するが、非接触・未測定・未回収
-- 第19章送風：旧試掘坑用補助送風の分岐管が外され、再接続後に送風を再開する。候補石付近の危険な空気は残る
-- 第19章責任構造：ザイルが補助送風停止と分岐管取外しを命じ、ガレオは異常の詳細を確認せず「現場で処理しろ」と答える。レオニスの直接命令は未確認
-- 第19章権限：採掘・搬出許可はなく、誰を危険域へ入れてよいと誰が決めるかを未解決のまま残す
-- 第20章監督官：バルザンは現地検証と候補石への接近・採掘・搬出を停止し、補助送風継続と排気坑再開を命じる
-- 第20章宗吉：現在は取り立て屋。鉱夫の父を坑道事故で失い、鉱山地区で育ち、別鉱区で坑内作業を経験する
-- 第20章入坑：宗吉は誰の命令・許可も受けず、自分の意思で旧試掘坑へ入り、候補石を周囲の岩ごと回収する
-- 第20章死亡：惟が宗吉を救出するが、宗吉は坑外で死亡する。死因は未確認
-- 第20章行先票：宗吉は惟の白票を取り黒票を渡したことを謝罪する。借りを返したかどうかは確定しない
-- 第20章初回測定：対照写真板を封したまま配置し、同一金箔検電器で対照・発見物を交互に3回測る。発見物付近で3回とも早く閉じるが原因未確認
-- 第20章封印：鉄箱は監督署封蝋、技術省封蝋、柚の照合記号で共同封印し、宗吉の担架、候補石、記録を同じ列でセルへ下ろす
-- アルヴァ：総統として技術卿職務を暫定代行
-- アドリアン：アルヴァの弟、セーラの叔父。セル高地の旧観測所に居住
-- 第9章：第25話〜第27話、完結
-- 第10章：第28話〜第29話、完結
-- 第11章：第30話〜第31話、完結
-- 第12章：第32話〜第33話、完結
-- 第13章：第34話〜第37話、完結
-- 第14章：第38話〜第40話、完結
-- 第15章：第41話〜第45話、完結
-- 第16章：第46話〜第49話、完結
-- 第17章：第50話〜第51話、完結
-- 第18章：第52話〜第53話、完結
-- 第19章：第54話〜第56話、完結
-- 第20章：第57話〜第60話、完結
-- 章・話番号：アラビア数字
+- 惟、柚、惟歳、マーサの出国：1611年5月
+- 1611年12月2日：破局
+- マーサ死亡：1632年4月、33歳
+- アズナル：1613年7月生まれ
+- 第21章：1597年1月、黒い壁の帰還目的と技術立国二十年構想
+- 第22章：1632年、マーサの古紙、アユタヤ、一房、平戸入国
+- 第22章末：惟、柚、惟歳の現在の生死・所在は未確認
+- 1634年3月末：阿蘇・峯村で惟と柚に再会する予定時点
 
-## 運用上の注意
-
-- 正典文書は設定管理用であり、登録済み本文を遡及改稿する根拠にはしない。
-- 本文へ未反映の確定事項は、繰越修正として扱う。
-- 作者的事実と、作中人物が確認できる事実を分離する。
-- 未確認事項を補完しない。
+各数量、台詞、知識範囲、未確認事項は、対応する登録本文正典を参照する。
