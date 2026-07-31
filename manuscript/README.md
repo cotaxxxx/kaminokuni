@@ -28,6 +28,7 @@
 - [第23章「桜」登録台帳](./management/23-桜-登録台帳.md)
 - [第24章「研究所」登録台帳](./management/24-研究所-登録台帳.md)
 - [第25章「マーサ」登録台帳](./management/25-マーサ-登録台帳.md)
+- [第26章「納品」登録台帳](./management/26-納品-登録台帳.md)
 - [外伝「市」登録台帳](./management/外伝-市-登録台帳.md)
 
 ## 登録済み章
@@ -57,6 +58,7 @@
 - 第23章「桜」：第67話〜第69話 `REGISTERED / LOCKED`
 - 第24章「研究所」：第70話〜第72話 `REGISTERED / LOCKED`
 - 第25章「マーサ」：第73話〜第75話 `REGISTERED / LOCKED`
+- 第26章「納品」：第76話〜第78話 `REGISTERED / LOCKED`
 
 ## 登録済み外伝
 
