@@ -27,6 +27,7 @@
 - [第22章「入国」登録台帳](./management/22-入国-登録台帳.md)
 - [第23章「桜」登録台帳](./management/23-桜-登録台帳.md)
 - [第24章「研究所」登録台帳](./management/24-研究所-登録台帳.md)
+- [第25章「マーサ」登録台帳](./management/25-マーサ-登録台帳.md)
 - [外伝「市」登録台帳](./management/外伝-市-登録台帳.md)
 
 ## 登録済み章
@@ -55,6 +56,7 @@
 - 第22章「入国」：第64話〜第66話 `REGISTERED / LOCKED`
 - 第23章「桜」：第67話〜第69話 `REGISTERED / LOCKED`
 - 第24章「研究所」：第70話〜第72話 `REGISTERED / LOCKED`
+- 第25章「マーサ」：第73話〜第75話 `REGISTERED / LOCKED`
 
 ## 登録済み外伝
 
