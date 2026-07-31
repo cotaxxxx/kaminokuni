@@ -97,6 +97,11 @@
 48. [第48話「熱」](./chapters/16-南方の陸地/048-第48話-熱.md) — `REGISTERED / LOCKED`
 49. [第49話「帰路」](./chapters/16-南方の陸地/049-第49話-帰路.md) — `REGISTERED / LOCKED`
 
+## 第17章「帰還」
+
+50. [第50話「手紙」](./chapters/17-帰還/050-第50話-手紙.md) — `REGISTERED / LOCKED`
+51. [第51話「右近」](./chapters/17-帰還/051-第51話-右近.md) — `REGISTERED / LOCKED`
+
 ## 外伝
 
 - [外伝目次](./SIDE_STORIES_INDEX.md)
