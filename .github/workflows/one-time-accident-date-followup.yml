@@ -1,0 +1,139 @@
+name: Final accident date consistency cleanup
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/one-time-accident-date-followup.yml
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Correct residual chronology statements
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          replacements = {
+              Path('manuscript/chapters/32-上陸/094-第94話-核爆発.md'): [
+                  (
+                      '母が島を出た11日後。\n国が閉じた6日後。\n炉が壊れた。',
+                      '母が島を出た186日後。\n国が閉じた181日後。\n炉が壊れた。'
+                  ),
+              ],
+              Path('canon/README.md'): [
+                  (
+                      '- 原子炉重大事故日は1611年11月29日。上記の事故前数日から11月29日の各日付は全編完成後の一括修正対象であり、現行の確定日付として使用しない。出来事の順序のみを保持する',
+                      '- 原子炉重大事故日：1611年11月29日。事故前の再出現、再接続及び3MW到達の正確な日は未確定であり、出来事の順序のみを保持する'
+                  ),
+              ],
+              Path('canon/48_CHAPTER_33_REGISTERED_CANON.md'): [
+                  (
+                      '使用する表現。\n\n- 1611年11月29日\n- 1611年11月30日\n- 事故から3日後\n- 1611年11月29日から12月1日まで',
+                      '日付対応。\n\n- 1611年11月29日：事故当日。\n- 1611年11月30日：事故から1日後。\n- 1611年12月1日：事故から2日後。\n- 1611年12月2日：事故から3日後、最終破局。'
+                  ),
+                  (
+                      '### 6.7 ゲール救助\n\n原子炉重大事故から3日後。\n\n- 南東鉱区から救助班が発電所へ向かう。\n- 制御室西側で重傷者1人を発見。\n- 後にヴァルク家ゲールと確認。\n- 金山へ搬送して治療。',
+                      '### 6.7 ゲール救助\n\n1611年12月2日、最終破局前。原子炉重大事故から3日後。\n\n- 南東鉱区から救助班が発電所へ向かう。\n- 制御室西側で重傷者1人を発見。\n- 後にヴァルク家ゲールと確認。\n- 金山への搬送には1日以上を要する。\n- 搬送中のどの時点で最終破局が発生したか、及び金山への正確な到着日時は未確定。'
+                  ),
+              ],
+              Path('manuscript/management/32-上陸-登録台帳.md'): [
+                  (
+                      '既存登録本文は変更していない。',
+                      '2026年8月1日、作者の明示的な遡及許可により、第93話及び第94話の事故日表現並びに関連正典を1611年11月29日へ訂正した。'
+                  ),
+              ],
+              Path('manuscript/management/33-発射-登録台帳.md'): [
+                  (
+                      '- `1611年4月10日` → `事故から3日後`',
+                      '- `1611年4月10日` → `1611年12月2日（事故から3日後、最終破局前）`'
+                  ),
+                  (
+                      '## 遡及禁止監査\n\n変更していないもの。\n\n- 第31章以前の登録本文。\n- 第32章「上陸」の登録本文3話。\n- `canon/47_CHAPTER_32_REGISTERED_CANON.md`。\n- `manuscript/management/32-上陸-登録台帳.md`。\n\n第32章に残る事故日の誤値は、作者の指示どおり、全編完成後の明示的な一括修正許可まで変更していない。',
+                      '## 遡及訂正記録\n\n2026年8月1日、作者から明示的な遡及許可を受けた。\n\n- 第32章から第34章までの事故日表現を1611年11月29日へ統一。\n- 1611年12月2日を事故から3日後の最終破局として統一。\n- 第98話のゲール救出を、12月2日の最終破局前に開始した出来事へ訂正。\n- 事故前の再出現、再接続及び3MW到達は正確な日を確定せず、順序のみを維持。\n- 適用コミット：`107cd562d114af17dc08e032a28c603a949acf29`。'
+                  ),
+              ],
+              Path('manuscript/management/34-終話-登録台帳.md'): [
+                  (
+                      '- 原子炉重大事故の年月日：未確定',
+                      '- 原子炉重大事故日：1611年11月29日'
+                  ),
+                  (
+                      '## 遡及禁止確認\n\n変更していないもの。\n\n- 第1章〜第33章の登録本文。\n- 第32章及び第33章の登録本文正典。\n- 過去に登録された原子炉重大事故の日付表現。\n\n全編完成後の一括修正には、作者の明示的な許可を必要とする。',
+                      '## 遡及訂正確認\n\n2026年8月1日、作者の明示的な許可により、原子炉重大事故日を遡及訂正した。\n\n- 原子炉重大事故日：1611年11月29日。\n- 最終破局日：1611年12月2日。\n- 暦日差：3日。\n- 第32章から第34章までの登録本文、登録本文正典、登録台帳及び正典索引へ反映。\n- 非日付事項は変更していない。\n- 適用コミット：`107cd562d114af17dc08e032a28c603a949acf29`。'
+                  ),
+              ],
+          }
+
+          changed = []
+          missing = []
+          for path, pairs in replacements.items():
+              text = path.read_text(encoding='utf-8')
+              original = text
+              for old, new in pairs:
+                  if old not in text:
+                      missing.append(f'{path}: expected text not found: {old[:60]!r}')
+                  else:
+                      text = text.replace(old, new)
+              if text != original:
+                  path.write_text(text, encoding='utf-8')
+                  changed.append(path)
+
+          if missing:
+              raise SystemExit('\n'.join(missing))
+
+          workflow = Path('.github/workflows/one-time-accident-date-followup.yml')
+          workflow.unlink()
+          changed.append(workflow)
+
+          checks = {
+              Path('manuscript/chapters/32-上陸/094-第94話-核爆発.md'): [
+                  '母が島を出た11日後',
+                  '国が閉じた6日後',
+              ],
+              Path('canon/README.md'): [
+                  '11月29日の各日付は全編完成後の一括修正対象',
+              ],
+              Path('manuscript/management/33-発射-登録台帳.md'): [
+                  '第32章に残る事故日の誤値',
+              ],
+              Path('manuscript/management/34-終話-登録台帳.md'): [
+                  '原子炉重大事故の年月日：未確定',
+                  '全編完成後の一括修正には',
+              ],
+          }
+          failures = []
+          for path, forbidden in checks.items():
+              text = path.read_text(encoding='utf-8')
+              for item in forbidden:
+                  if item in text:
+                      failures.append(f'{path}: forbidden stale text remains: {item}')
+          if failures:
+              raise SystemExit('\n'.join(failures))
+
+          print('Changed:')
+          for path in changed:
+              print(path)
+          PY
+
+      - name: Commit cleanup
+        shell: bash
+        run: |
+          git diff --check
+          git config user.name "openai-canon-editor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          while IFS= read -r -d '' path; do
+            git add -- "$path"
+          done < <(git diff --name-only -z)
+          git commit -m "Complete accident date chronology cleanup"
+          git push origin HEAD:main
