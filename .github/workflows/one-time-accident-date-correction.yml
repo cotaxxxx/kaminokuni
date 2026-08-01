@@ -1,0 +1,236 @@
+name: One-time accident date correction
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/one-time-accident-date-correction.yml
+
+permissions:
+  contents: write
+
+jobs:
+  correct:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply authorized retroactive correction
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          root = Path('.')
+
+          preferred = [
+              Path('canon/README.md'),
+              Path('canon/01_CHRONOLOGY_AND_CHAPTERS.md'),
+              Path('canon/04_CHARACTERS.md'),
+              Path('canon/06_RESEARCH_TECHNOLOGY_AND_RECORDS.md'),
+              Path('canon/07_PLOT_EVIDENCE_AND_CHAPTER_LEDGERS.md'),
+              Path('canon/08_LATE_STORY_AND_DISASTER.md'),
+              Path('canon/47_CHAPTER_32_REGISTERED_CANON.md'),
+              Path('canon/48_CHAPTER_33_REGISTERED_CANON.md'),
+              Path('canon/49_CHAPTER_34_REGISTERED_CANON.md'),
+              Path('canon/UNRESOLVED.md'),
+              Path('manuscript/chapters/32-上陸/094-第94話-核爆発.md'),
+              Path('manuscript/chapters/32-上陸/095-第95話-混乱.md'),
+              Path('manuscript/chapters/33-発射/096-第96話-暴動.md'),
+              Path('manuscript/chapters/33-発射/098-第98話-喪失.md'),
+              Path('manuscript/chapters/34-終話/099-第99話-再生.md'),
+              Path('manuscript/chapters/34-終話/100-第100話-海.md'),
+              Path('manuscript/management/32-上陸-登録台帳.md'),
+              Path('manuscript/management/33-発射-登録台帳.md'),
+              Path('manuscript/management/34-終話-登録台帳.md'),
+          ]
+
+          # Files containing the formerly adopted 6 June sequence are corrected
+          # even if they were not anticipated in the preferred list.
+          for path in root.rglob('*.md'):
+              if any(part == '.git' for part in path.parts):
+                  continue
+              try:
+                  text = path.read_text(encoding='utf-8')
+              except UnicodeDecodeError:
+                  continue
+              if ('1611年6月7日' in text or
+                  '原子炉重大事故の年月日は未確定' in text or
+                  '事故年月日は未確定' in text):
+                  if path not in preferred:
+                      preferred.append(path)
+
+          changed = []
+
+          def replace_common(text: str) -> str:
+              # The accident date is now fixed.
+              text = text.replace('1611年6月7日', '1611年11月29日')
+              text = text.replace('原子炉重大事故当日', '1611年11月29日')
+              text = text.replace('事故当日', '1611年11月29日')
+              text = text.replace('事故翌日', '1611年11月30日')
+
+              exact_replacements = {
+                  '原子炉重大事故の年月日は、作者の最新指示により未確定とする。':
+                      '原子炉重大事故日は、作者の最新指示により1611年11月29日と確定する。',
+                  '原子炉重大事故の年月日は未確定である。':
+                      '原子炉重大事故日は1611年11月29日である。',
+                  '原子炉重大事故の年月日は未確定。':
+                      '原子炉重大事故日は1611年11月29日。',
+                  '原子炉重大事故の年月日は未確定とする。':
+                      '原子炉重大事故日は1611年11月29日とする。',
+                  '事故年月日は未確定': '事故日は1611年11月29日',
+                  '事故日を未確定として扱う': '事故日を1611年11月29日として扱う',
+                  '事故日を未確定とする': '事故日を1611年11月29日とする',
+                  '事故日。\n未確定。': '事故日。\n1611年11月29日。',
+                  '事故年月日。\n未確定。': '事故日。\n1611年11月29日。',
+                  '事故から1611年12月1日まで': '1611年11月29日から12月1日まで',
+              }
+              for old, new in exact_replacements.items():
+                  text = text.replace(old, new)
+
+              # README's former temporary-policy sentence.
+              text = text.replace(
+                  '- 原子炉重大事故の年月日は未確定。上記の6月2日〜6月7日の各日付は全編完成後の一括修正対象であり、現行の確定日付として使用しない。出来事の順序のみを保持する',
+                  '- 原子炉重大事故日：1611年11月29日。事故前の再出現、再接続及び3MW到達の正確な日は未確定であり、出来事の順序のみを保持する'
+              )
+              text = text.replace(
+                  '第32章：1635年10月の上陸、生存共同体とミレアの確認、交易交渉、ゲールの証言、原子炉重大事故及び首都混乱の再構成。事故日は1611年11月29日',
+                  '第32章：1635年10月の上陸、生存共同体とミレアの確認、交易交渉、ゲールの証言、1611年11月29日の原子炉重大事故及び首都混乱の再構成'
+              )
+              return text
+
+          for path in preferred:
+              if not path.exists():
+                  continue
+              text = path.read_text(encoding='utf-8')
+              original = text
+              text = replace_common(text)
+
+              # The old pre-accident June dates are not independently fixed.
+              if path.name in {
+                  'README.md',
+                  '47_CHAPTER_32_REGISTERED_CANON.md',
+                  '094-第94話-核爆発.md',
+                  '32-上陸-登録台帳.md',
+              }:
+                  text = text.replace('1611年6月2日', '原子炉重大事故の数日前')
+                  text = text.replace('1611年6月3日', 'その翌日')
+                  text = text.replace('1611年6月4日', 'さらに翌日')
+                  text = text.replace('6月2日〜6月7日', '事故前数日から11月29日')
+                  text = text.replace('6月2日', '事故の数日前')
+                  text = text.replace('6月3日', 'その翌日')
+                  text = text.replace('6月4日', 'さらに翌日')
+                  text = text.replace('6月7日', '11月29日')
+
+              # Chapter 33: the accident-to-catastrophe interval is only three days.
+              if path.name == '096-第96話-暴動.md':
+                  text = text.replace('1611年11月30日から1611年12月1日。',
+                                      '1611年11月30日から12月1日。')
+                  text = text.replace('1611年11月29日の暴動', '11月29日の暴動')
+                  text = text.replace('1611年11月29日の損傷', '11月29日の損傷')
+                  text = text.replace('事故から12月1日まで。',
+                                      '1611年11月29日から12月1日まで。')
+
+              if path.name == '098-第98話-喪失.md':
+                  text = text.replace(
+                      '原子炉重大事故の後。\n破局の前。\n\n事故から3日後。',
+                      '1611年12月2日。\n最終破局前。\n\n事故から3日後。'
+                  )
+                  # Handles the text after common replacement if applicable.
+                  text = text.replace(
+                      '1611年11月29日の後。\n破局の前。\n\n事故から3日後。',
+                      '1611年12月2日。\n最終破局前。\n\n事故から3日後。'
+                  )
+
+              # Canon sections that formerly declared the date unresolved.
+              text = text.replace(
+                  '第33章では、誤った年月日を固定しない。',
+                  '第33章では、原子炉重大事故日を1611年11月29日とする。'
+              )
+              text = text.replace(
+                  '第34章では誤った年月日を固定せず、次の表現を用いる。',
+                  '第34章では原子炉重大事故日を1611年11月29日とし、必要に応じて次の相対表現も用いる。'
+              )
+              text = text.replace(
+                  '原子炉重大事故日：未確定',
+                  '原子炉重大事故日：1611年11月29日'
+              )
+
+              # Index the registered correction canon.
+              if path == Path('canon/README.md'):
+                  link = '- [`50_ACCIDENT_DATE_RETROACTIVE_CORRECTION.md`](./50_ACCIDENT_DATE_RETROACTIVE_CORRECTION.md)：原子炉重大事故日を1611年11月29日、最終破局日を1611年12月2日とする作者許可済み遡及訂正。日付に限り第32章〜第34章の旧記載に優先する。\n'
+                  anchor = '- [`49_CHAPTER_34_REGISTERED_CANON.md`](./49_CHAPTER_34_REGISTERED_CANON.md)：第34章「終話」\n'
+                  if link not in text:
+                      if anchor in text:
+                          text = text.replace(anchor, anchor + link)
+                      else:
+                          marker = '## 統合補正\n'
+                          text = text.replace(marker, link + '\n' + marker)
+
+              if text != original:
+                  path.write_text(text, encoding='utf-8')
+                  changed.append(path)
+
+          # Append an application record to the correction canon.
+          correction = Path('canon/50_ACCIDENT_DATE_RETROACTIVE_CORRECTION.md')
+          text = correction.read_text(encoding='utf-8')
+          marker = '\n## 11．本文反映\n'
+          if marker not in text:
+              text += (
+                  marker + '\n'
+                  '- 作者許可に基づき、登録本文・正典・台帳・索引の旧事故日を遡及訂正した。\n'
+                  '- 事故日を1611年11月29日へ統一した。\n'
+                  '- 最終破局を事故から3日後の1611年12月2日として統一した。\n'
+                  '- ゲール救出を1611年12月2日の最終破局前に開始した出来事として整合させた。\n'
+                  '- 事故前の再出現、再接続及び3MW到達は正確な日を確定せず、順序のみを維持した。\n'
+              )
+              correction.write_text(text, encoding='utf-8')
+              changed.append(correction)
+
+          # Remove this one-time workflow after applying the correction.
+          workflow = Path('.github/workflows/one-time-accident-date-correction.yml')
+          if workflow.exists():
+              workflow.unlink()
+              changed.append(workflow)
+
+          # Validation: current authoritative files must not retain the old accident date
+          # or declare the accident date unresolved.
+          failures = []
+          for path in preferred:
+              if not path.exists():
+                  continue
+              text = path.read_text(encoding='utf-8')
+              if '1611年6月7日' in text:
+                  failures.append(f'{path}: old date 1611年6月7日 remains')
+              if '原子炉重大事故の年月日は未確定' in text:
+                  failures.append(f'{path}: unresolved accident date remains')
+              if '事故年月日は未確定' in text:
+                  failures.append(f'{path}: unresolved accident date remains')
+          if failures:
+              raise SystemExit('\n'.join(failures))
+
+          print('Changed paths:')
+          for path in sorted(set(changed), key=str):
+              print(path)
+          PY
+
+      - name: Validate and commit
+        shell: bash
+        run: |
+          git diff --check
+          if git diff --quiet; then
+            echo "No correction changes were required."
+            exit 0
+          fi
+          git config user.name "openai-canon-editor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          while IFS= read -r -d '' path; do
+            git add -- "$path"
+          done < <(git diff --name-only -z)
+          git commit -m "Apply authorized accident date retroactive correction"
+          git push origin HEAD:main
