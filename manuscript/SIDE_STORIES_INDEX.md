@@ -22,7 +22,7 @@
 1. [第1話「青春」](./side-stories/レオニス/001-第1話-青春.md) — `REGISTERED / LOCKED`
 2. [第2話「政治家」](./side-stories/レオニス/002-第2話-政治家.md) — `REGISTERED / LOCKED`
 3. [第3話「裁判」](./side-stories/レオニス/003-第3話-裁判.md) — `REGISTERED / LOCKED`
-4. [第4話「海」](./side-stories/レオニス/004-第4話-海.md) — `REGISTERED / LOCKED`
+4. [第4話「空」](./side-stories/レオニス/004-第4話-空.md) — `REGISTERED / LOCKED`
 
 ## 登録規則
 
