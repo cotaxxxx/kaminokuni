@@ -8,7 +8,7 @@
 | **II. BLANK** | 第17話〜第37話 | 第6章〜第13章 | なし | `REGISTERED / LOCKED` |
 | **III. FIRE** | 第38話〜第60話 | 第14章〜第20章 | 外伝「市」全4話 | `REGISTERED / LOCKED` |
 | **IV. WIND** | 第61話〜第81話 | 第21章〜第27章 | なし | `REGISTERED / LOCKED` |
-| **V. WATER** | 第82話〜第100話 | 第28章〜第34章 | 外伝「レオニス・セカンドストーリー」全4話 | `REGISTERED / LOCKED` |
+| **V. WATER** | 第82話〜第100話 | 第28章〜第34章 | 外伝「レオニス」全4話 | `REGISTERED / LOCKED` |
 
 - 本編100話と外伝8話の合計を、全108話とする。
 - 第63話／第64話で四十年後の観測点が開き、第69話／第70話で閉じる。これは御前不在の開始ではない。
@@ -242,12 +242,12 @@
 99. [第99話「再生」](./chapters/34-終話/099-第99話-再生.md) — `REGISTERED / LOCKED`
 100. [第100話「海」](./chapters/34-終話/100-第100話-海.md) — `REGISTERED / LOCKED`
 
-### 付属外伝「レオニス・セカンドストーリー」
+### 付属外伝「レオニス」
 
 1. [第1話「青春」](./side-stories/レオニス/001-第1話-青春.md) — `REGISTERED / LOCKED`
 2. [第2話「政治家」](./side-stories/レオニス/002-第2話-政治家.md) — `REGISTERED / LOCKED`
 3. [第3話「裁判」](./side-stories/レオニス/003-第3話-裁判.md) — `REGISTERED / LOCKED`
-4. [第4話「海」](./side-stories/レオニス/004-第4話-海.md) — `REGISTERED / LOCKED`
+4. [第4話「空」](./side-stories/レオニス/004-第4話-空.md) — `REGISTERED / LOCKED`
 
 ## 関連目次
 
