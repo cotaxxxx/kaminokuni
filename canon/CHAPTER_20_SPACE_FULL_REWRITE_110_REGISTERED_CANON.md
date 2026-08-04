@@ -21,11 +21,11 @@
 
 ## 1．登録本文
 
-| 話 | パス | 旧Blob SHA | 現行Blob SHA | 改稿コミット |
+| 話 | パス | 旧Blob SHA | 現行Blob SHA | 最終本文コミット |
 |---|---|---|---|---|
-| 第73話「進捗」 | `manuscript/chapters/25-マーサ/073-第73話-進捗.md` | `a9cf07dd14e1ef90de113f3a3e796c2595b011b0` | `fb59c17a0c5aabdaf5d6c3f3dd154d19087b7921` | `c014f3ac7740afc8791fdb139126666a0a8a5716` |
+| 第73話「進捗」 | `manuscript/chapters/25-マーサ/073-第73話-進捗.md` | `a9cf07dd14e1ef90de113f3a3e796c2595b011b0` | `1361b69a8eacb8472232f549668c34eead3b9492` | `b46c7465005a3c8886a7d7f71e342282ebc5cd58` |
 | 第74話「建屋」 | `manuscript/chapters/25-マーサ/074-第74話-建屋.md` | `c91c2db185636330c7099b080a5378b254d1d600` | `d1ee6b41ef428b50021c2d2cbe0758e8161ab986` | `e67f558d0c45f6922545d1163eda6be87f2b72fe` |
-| 第75話「採らなかった石」 | `manuscript/chapters/25-マーサ/075-第75話-採らなかった石.md` | `b360a71268575fa65f2b14e028d6cf3ad36f41f2` | `6a22da08c79fb9544d3d645ad4590a9220999646` | `af027fc4c84918a0ae05cccd210061440c9645d6` |
+| 第75話「採らなかった石」 | `manuscript/chapters/25-マーサ/075-第75話-採らなかった石.md` | `b360a71268575fa65f2b14e028d6cf3ad36f41f2` | `6cb0c83991ce00cb8be07023b616426d44b7c6a4` | `825690acae10a7da50913c2f8a27ab63debf9113` |
 
 本文見出しは、旧物理構成に残っていた「第25章　マーサ」から、正式目次に従う「第20章　空間」へ対象3話内だけを修正した。
 
