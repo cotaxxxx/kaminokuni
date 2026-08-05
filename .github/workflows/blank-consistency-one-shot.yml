@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - editorial/blank-date-name-numeral-audit-20260806
+  workflow_dispatch:
 
 permissions:
   contents: write
