@@ -212,7 +212,7 @@
 
 85. [第85話「黒い壁」](./chapters/29-噂/085-第85話-黒い壁.md) — `REGISTERED / LOCKED`
 86. [第86話「通電」](./chapters/29-噂/086-第86話-通電.md) — `REGISTERED / LOCKED`
-87. [第87話「暴動」](./chapters/29-噂/087-第87話-暴動.md) — `REGISTERED / LOCKED`
+87. [第87話「総督府」](./chapters/29-噂/087-第87話-暴動.md) — `REGISTERED / LOCKED`
 
 ### 第30章「脱出」
 
