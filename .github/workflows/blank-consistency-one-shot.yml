@@ -1,0 +1,70 @@
+name: BLANK consistency one-shot
+
+on:
+  push:
+    branches:
+      - editorial/blank-date-name-numeral-audit-20260806
+
+permissions:
+  contents: write
+
+jobs:
+  revise:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: editorial/blank-date-name-numeral-audit-20260806
+          fetch-depth: 0
+      - name: Apply authorized II. BLANK corrections
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          files = [
+              Path('manuscript/chapters/07-リデル炎上/020-第20話-赤い空.md'),
+              Path('manuscript/chapters/07-リデル炎上/021-第21話-倒れる方向.md'),
+              Path('manuscript/chapters/07-リデル炎上/022-第22話-うまくいった.md'),
+              Path('manuscript/chapters/08-選民/023-第23話-三つの欄.md'),
+              Path('manuscript/chapters/08-選民/024-第24話-選民.md'),
+              Path('manuscript/chapters/09-扉を開く者/025-第25話-口をつぐむ.md'),
+              Path('manuscript/chapters/09-扉を開く者/026-第26話-寒いところ.md'),
+              Path('manuscript/chapters/09-扉を開く者/027-第27話-同じ机.md'),
+              Path('manuscript/chapters/10-三枚の翼/028-第28話-三枚の翼.md'),
+              Path('manuscript/chapters/10-三枚の翼/029-第29話-歓迎.md'),
+              Path('manuscript/chapters/11-記録の行方/030-第30話-全部ある.md'),
+              Path('manuscript/chapters/11-記録の行方/031-第31話-同じ番号.md'),
+              Path('manuscript/chapters/12-箱/032-第32話-箱に入らないもの.md'),
+              Path('manuscript/chapters/12-箱/033-第33話-二つの届け先.md'),
+              Path('manuscript/chapters/13-光の重さ/034-第34話-同じ速さ.md'),
+              Path('manuscript/chapters/13-光の重さ/035-第35話-光の重さ.md'),
+              Path('manuscript/chapters/13-光の重さ/036-第36話-空いた椅子.md'),
+          ]
+
+          old_date = '神記2874年（西暦1590年）秋。'
+          new_date = '西暦1590年　秋。'
+
+          for path in files:
+              text = path.read_text(encoding='utf-8')
+              count = text.count(old_date)
+              if count != 1:
+                  raise SystemExit(f'{path}: expected one date marker, found {count}')
+              path.write_text(text.replace(old_date, new_date, 1), encoding='utf-8')
+
+          path36 = Path('manuscript/chapters/13-光の重さ/036-第36話-空いた椅子.md')
+          text36 = path36.read_text(encoding='utf-8')
+          old_cycle = '半年ごとの御前会議を、十二日後に控えた日。'
+          new_cycle = '年初の定例御前会議を、十二日後に控えた日。'
+          count_cycle = text36.count(old_cycle)
+          if count_cycle != 1:
+              raise SystemExit(f'{path36}: expected one council-cycle phrase, found {count_cycle}')
+          path36.write_text(text36.replace(old_cycle, new_cycle, 1), encoding='utf-8')
+          PY
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm .github/workflows/blank-consistency-one-shot.yml
+          git add manuscript/chapters
+          git commit -m 'II. BLANKの年代表記と第36話御前会議周期を整合'
+          git push origin HEAD:editorial/blank-date-name-numeral-audit-20260806
