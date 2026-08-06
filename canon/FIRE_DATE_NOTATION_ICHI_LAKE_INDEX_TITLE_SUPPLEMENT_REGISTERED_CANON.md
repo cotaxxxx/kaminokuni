@@ -84,7 +84,7 @@
 
 本登録後も、次の判断待ちが残る。
 
-1. 数字表記の統一（II. BLANKを最優先監査対象とする方針は登録済み。III. FIREの漢数字月を含む）。
+1. 数字表記の統一：`NUMERAL_USA_CITY_LEONIS_CANE_SUPPLEMENT_REGISTERED_CANON.md`により用途別併用規則を確定し、III. FIREの対象月表記を算用数字へ修正済み。`RESOLVED`。
 2. `canon/49_CHAPTER_34_REGISTERED_CANON.md`及び`canon/README.md`に残る旧「宇佐市」墓地記述への`SUPERSEDED`明示。
 3. 第100話「杖。なし。」と外伝レオニスの杖の扱い（対応案A/B提示済み）。
 
