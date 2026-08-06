@@ -1,0 +1,30 @@
+name: Close resolved pending items
+
+on:
+  push:
+    branches:
+      - canon/close-resolved-pending-items-20260806
+
+permissions:
+  contents: write
+
+jobs:
+  close:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Update resolved pending section
+        run: python scripts/close_resolved_pending_items.py
+      - name: Commit resolved status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- \
+            canon/FIRE_DATE_NOTATION_ICHI_LAKE_INDEX_TITLE_SUPPLEMENT_REGISTERED_CANON.md \
+            .github/workflows/close-resolved-pending-items.yml \
+            scripts/close_resolved_pending_items.py
+          git commit -m "旧判断待ち三件を解決済みとして更新"
+          git push origin HEAD
