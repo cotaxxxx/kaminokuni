@@ -1,0 +1,44 @@
+name: Register numeral, city-name, and Leonis consistency
+
+on:
+  push:
+    branches:
+      - canon/numeral-usa-leonis-consistency-20260806
+
+permissions:
+  contents: write
+
+jobs:
+  register:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply approved corrections
+        run: python scripts/register_numeral_usa_leonis.py
+      - name: Commit approved corrections
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- \
+            manuscript/chapters/13-光の重さ/037-第37話-血の外から.md \
+            manuscript/chapters/14-黒い壁/038-第38話-一人残れ.md \
+            manuscript/chapters/14-黒い壁/039-第39話-最初の記録.md \
+            manuscript/chapters/14-黒い壁/040-第40話-地図の外.md \
+            manuscript/chapters/15-石/041-第41話-山の口.md \
+            manuscript/chapters/16-南方の陸地/046-第46話-森本左近.md \
+            manuscript/chapters/34-終話/100-第100話-海.md \
+            canon/BLANK_DATE_COUNCIL_NAME_NUMERAL_SUPPLEMENT_REGISTERED_CANON.md \
+            canon/FIRE_DATE_NOTATION_ICHI_LAKE_INDEX_TITLE_SUPPLEMENT_REGISTERED_CANON.md \
+            canon/49_CHAPTER_34_REGISTERED_CANON.md \
+            canon/LEONIS_FULL_REWRITE_REGISTERED_CANON.md \
+            canon/SUPERSEDED.md \
+            canon/README.md \
+            canon/NUMERAL_USA_CITY_LEONIS_CANE_SUPPLEMENT_REGISTERED_CANON.md \
+            manuscript/management/数字表記・市墓標・レオニス杖-補足登録台帳.md \
+            .github/workflows/register-numeral-usa-leonis.yml \
+            scripts/register_numeral_usa_leonis.py
+          git commit -m "数字表記・市墓標・レオニス杖の整合を優先正典登録"
+          git push origin HEAD
