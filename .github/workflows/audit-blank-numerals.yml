@@ -1,25 +1,11 @@
 name: Audit II BLANK numerals
 
 on:
-  push:
-    branches:
-      - canon/blank-numeral-rule-1-1-no-exception-20260806
-
-permissions:
-  contents: write
+  workflow_dispatch:
 
 jobs:
-  audit:
-    if: github.actor != 'github-actions[bot]'
+  disabled:
+    if: false
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Generate numeral audit
-        run: python scripts/audit_blank_numerals.py
-      - name: Commit audit report
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- manuscript/management/_tmp_blank_numeral_audit.md
-          git commit -m "II. BLANK数字表記の一時監査報告を生成"
-          git push origin HEAD
+      - run: echo disabled
