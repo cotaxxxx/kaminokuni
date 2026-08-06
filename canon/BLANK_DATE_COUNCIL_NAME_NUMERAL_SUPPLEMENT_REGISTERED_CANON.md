@@ -113,7 +113,11 @@
 
 ## 4．数字表記
 
-状態：`DECISION PENDING / PRIORITY SCOPE / NO TEXT CHANGE`
+状態：`RESOLVED BY LATER PRIORITY CANON / SUPERSEDED IN PART`
+
+後続の`NUMERAL_USA_CITY_LEONIS_CANE_SUPPLEMENT_REGISTERED_CANON.md`により、数字表記は用途別併用規則として確定した。年月日、測定値、技術値、帳簿・公文書上の数量及び照合対象となる数値は算用数字とし、慣用表現、文学的反復、数量性の弱い通常表現及び固有名称は漢数字を維持する。
+
+第37話の年代標識にある`一月`は`1月`へ修正済みである。以下の旧判断待ち記述は履歴として保持するが、現行の判断待ちではない。
 
 II. BLANKの数字表記は、今回変更しない。
 
