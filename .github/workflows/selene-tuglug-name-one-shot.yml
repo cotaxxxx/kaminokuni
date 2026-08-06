@@ -1,0 +1,40 @@
+name: Selene Tuglug name one-shot
+
+on:
+  push:
+    branches:
+      - editorial/selene-tuglug-name-revision-temp-20260806
+
+permissions:
+  contents: write
+
+jobs:
+  revise:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: editorial/selene-tuglug-name-revision-temp-20260806
+          fetch-depth: 0
+      - name: Revise formal name
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path('manuscript/chapters/13-光の重さ/037-第37話-血の外から.md')
+          text = path.read_text(encoding='utf-8')
+          old = 'セレネ家トゥグルグ'
+          new = 'セレネトゥグルグ'
+          count = text.count(old)
+          if count != 3:
+              raise SystemExit(f'expected 3 formal-name occurrences, found {count}')
+          path.write_text(text.replace(old, new), encoding='utf-8')
+          PY
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm .github/workflows/selene-tuglug-name-one-shot.yml
+          git add -- 'manuscript/chapters/13-光の重さ/037-第37話-血の外から.md'
+          git commit -m '第37話の正式名をセレネトゥグルグへ改訂'
+          git push origin HEAD:editorial/selene-tuglug-name-revision-temp-20260806
