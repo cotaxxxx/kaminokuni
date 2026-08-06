@@ -14,8 +14,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Apply numeral rule draft
-        run: python scripts/apply_blank_numeral_draft.py
+      - name: Repair report expression and apply numeral rule draft
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('scripts/apply_blank_numeral_draft.py')
+          s = p.read_text(encoding='utf-8')
+          old = "            residual.append(f\"- L{lineno}: `{line.replace('`', '\\\\`')}`  \")"
+          new = "            escaped = line.replace('`', '\\\\`')\n            residual.append(f\"- L{lineno}: `{escaped}`  \")"
+          if old not in s:
+              raise RuntimeError('report expression not found')
+          p.write_text(s.replace(old, new, 1), encoding='utf-8')
+          PY
+          python scripts/apply_blank_numeral_draft.py
       - name: Commit draft and residual audit
         run: |
           git config user.name "github-actions[bot]"
