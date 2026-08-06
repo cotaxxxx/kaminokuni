@@ -5,7 +5,8 @@
 - 査読日：2026年8月7日
 - 対象：`市-The-Black-Wall外伝.md`
 - 種別：構成・人物・視点・文体・主題・独立性・商業性・正典整合・読者配慮の多面査読
-- 判定：`ACCEPT WITH LIMITED REVISION`
+- 初回判定：`ACCEPT WITH LIMITED REVISION`
+- 最終判定：`ACCEPT / MULTIFACET REVIEW PASSED`
 - 遡及：独立版内部に限定。既存本編100話、外伝8話及び原典外伝「市」4話へ遡及しない。
 
 ## 総合判定
@@ -159,3 +160,17 @@ READMEへ読書上の位置づけと内容上の注意を追加する。
 9. READMEへ読書位置及び内容上の注意を追加。
 
 上記以外は変更しない。
+
+## 11．改訂実施及び再検証
+
+状態：`COMPLETED / VERIFIED / MULTIFACET REVIEW PASSED`
+
+承認修正範囲9項目を全て実施した。
+
+- 本文8項目を反映済み。
+- READMEの読書位置及び内容上の注意を反映済み。
+- 年月、年齢、金額、算術関係、人物関係、身分、病名、贈与、墓標及び結末は非変更。
+- 既存本編100話、外伝8話、原典外伝「市」4話及び第100話は非変更。
+- 登録正典`ICHI_STANDALONE_EDITION_REGISTERED_CANON.md`第9節へ改訂範囲及び再登録宣言を記録済み。
+
+最終判定は`ACCEPT / MULTIFACET REVIEW PASSED`とする。
