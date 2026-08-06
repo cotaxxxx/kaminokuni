@@ -80,13 +80,13 @@
 - 物理ファイル名、章構成、編構成
 - `ベガ島`という島名
 
-## 5．継続する判断待ち
+## 5．後続更新による解決
 
-本登録後も、次の判断待ちが残る。
+本登録時点で判断待ちだった次の三件は、`NUMERAL_USA_CITY_LEONIS_CANE_SUPPLEMENT_REGISTERED_CANON.md`及び現行本文により、すべて解決済みである。
 
-1. 数字表記の統一：`NUMERAL_USA_CITY_LEONIS_CANE_SUPPLEMENT_REGISTERED_CANON.md`により用途別併用規則を確定し、III. FIREの対象月表記を算用数字へ修正済み。`RESOLVED`。
-2. `canon/49_CHAPTER_34_REGISTERED_CANON.md`及び`canon/README.md`に残る旧「宇佐市」墓地記述への`SUPERSEDED`明示。
-3. 第100話「杖。なし。」と外伝レオニスの杖の扱い（対応案A/B提示済み）。
+1. 数字表記の統一：用途別併用規則を確定し、III. FIREの対象月表記を算用数字へ修正済み。`RESOLVED`。
+2. 旧「宇佐市」墓地記述：`canon/49_CHAPTER_34_REGISTERED_CANON.md`、`canon/README.md`及び`canon/SUPERSEDED.md`へ失効を明示済み。`RESOLVED / SUPERSEDED`。
+3. 第100話と外伝レオニスの杖：第100話を`杖。地面に置かれている。`へ修正し、外伝の現行描写と整合済み。`RESOLVED`。
 
 ## 6．登録宣言
 
