@@ -22,7 +22,7 @@
 ### 第1章「落城」
 
 1. [第1話「落城」](./chapters/01-落城/001-第1話-落城.md) — `REGISTERED / LOCKED`
-2. [第2話「上戸の傭兵隊長」](./chapters/01-落城/002-第2話-上戸の傭兵隊長.md) — `REGISTERED / LOCKED`
+2. [第2話「傭兵隊長」](./chapters/01-落城/002-第2話-上戸の傭兵隊長.md) — `REGISTERED / LOCKED`
 3. [第3話「我が子らに告げる」](./chapters/01-落城/003-第3話-我が子らに告げる.md) — `REGISTERED / LOCKED`
 
 ### 第2章「南へ」
@@ -115,7 +115,7 @@
 
 ### 第16章「南方の陸地」
 
-46. [第46話「森本左近」](./chapters/16-南方の陸地/046-第46話-森本左近.md) — `REGISTERED / LOCKED`
+46. [第46話「左近」](./chapters/16-南方の陸地/046-第46話-森本左近.md) — `REGISTERED / LOCKED`
 47. [第47話「密林」](./chapters/16-南方の陸地/047-第47話-密林.md) — `REGISTERED / LOCKED`
 48. [第48話「熱」](./chapters/16-南方の陸地/048-第48話-熱.md) — `REGISTERED / LOCKED`
 49. [第49話「帰路」](./chapters/16-南方の陸地/049-第49話-帰路.md) — `REGISTERED / LOCKED`
@@ -164,7 +164,7 @@
 ### 第22章「入国」
 
 64. [第64話「古い紙」](./chapters/22-入国/064-第64話-古い紙.md) — `REGISTERED / LOCKED`
-65. [第65話「アユタヤ日本人町」](./chapters/22-入国/065-第65話-アユタヤ日本人町.md) — `REGISTERED / LOCKED`
+65. [第65話「日本人町」](./chapters/22-入国/065-第65話-アユタヤ日本人町.md) — `REGISTERED / LOCKED`
 66. [第66話「平戸」](./chapters/22-入国/066-第66話-平戸.md) — `REGISTERED / LOCKED`
 
 ### 第23章「桜」
@@ -196,7 +196,7 @@
 
 ### 第27章「炉」
 
-79. [第79話「研究所」](./chapters/27-炉/079-第79話-研究所.md) — `REGISTERED / LOCKED`
+79. [第79話「四行」](./chapters/27-炉/079-第79話-研究所.md) — `REGISTERED / LOCKED`
 80. [第80話「着工」](./chapters/27-炉/080-第80話-着工.md) — `REGISTERED / LOCKED`
 81. [第81話「休日」](./chapters/27-炉/081-第81話-休日.md) — `REGISTERED / LOCKED`
 
