@@ -836,21 +836,21 @@
 
 ## 変更行概数
 
-- `manuscript/chapters/07-リデル炎上/020-第20話-赤い空.md`: 38
-- `manuscript/chapters/07-リデル炎上/021-第21話-倒れる方向.md`: 32
-- `manuscript/chapters/07-リデル炎上/022-第22話-うまくいった.md`: 27
-- `manuscript/chapters/08-選民/023-第23話-三つの欄.md`: 44
-- `manuscript/chapters/08-選民/024-第24話-選民.md`: 17
-- `manuscript/chapters/09-扉を開く者/025-第25話-口をつぐむ.md`: 39
-- `manuscript/chapters/09-扉を開く者/026-第26話-寒いところ.md`: 54
-- `manuscript/chapters/09-扉を開く者/027-第27話-同じ机.md`: 28
-- `manuscript/chapters/10-三枚の翼/028-第28話-三枚の翼.md`: 49
-- `manuscript/chapters/10-三枚の翼/029-第29話-歓迎.md`: 22
-- `manuscript/chapters/11-記録の行方/030-第30話-全部ある.md`: 29
-- `manuscript/chapters/11-記録の行方/031-第31話-同じ番号.md`: 13
-- `manuscript/chapters/12-箱/032-第32話-箱に入らないもの.md`: 47
-- `manuscript/chapters/12-箱/033-第33話-二つの届け先.md`: 33
-- `manuscript/chapters/13-光の重さ/034-第34話-同じ速さ.md`: 30
-- `manuscript/chapters/13-光の重さ/035-第35話-光の重さ.md`: 19
-- `manuscript/chapters/13-光の重さ/036-第36話-空いた椅子.md`: 26
-- `manuscript/chapters/13-光の重さ/037-第37話-血の外から.md`: 26
+- `manuscript/chapters/07-リデル炎上/020-第20話-赤い空.md`: 0
+- `manuscript/chapters/07-リデル炎上/021-第21話-倒れる方向.md`: 0
+- `manuscript/chapters/07-リデル炎上/022-第22話-うまくいった.md`: 0
+- `manuscript/chapters/08-選民/023-第23話-三つの欄.md`: 0
+- `manuscript/chapters/08-選民/024-第24話-選民.md`: 0
+- `manuscript/chapters/09-扉を開く者/025-第25話-口をつぐむ.md`: 0
+- `manuscript/chapters/09-扉を開く者/026-第26話-寒いところ.md`: 0
+- `manuscript/chapters/09-扉を開く者/027-第27話-同じ机.md`: 0
+- `manuscript/chapters/10-三枚の翼/028-第28話-三枚の翼.md`: 0
+- `manuscript/chapters/10-三枚の翼/029-第29話-歓迎.md`: 0
+- `manuscript/chapters/11-記録の行方/030-第30話-全部ある.md`: 0
+- `manuscript/chapters/11-記録の行方/031-第31話-同じ番号.md`: 0
+- `manuscript/chapters/12-箱/032-第32話-箱に入らないもの.md`: 0
+- `manuscript/chapters/12-箱/033-第33話-二つの届け先.md`: 0
+- `manuscript/chapters/13-光の重さ/034-第34話-同じ速さ.md`: 0
+- `manuscript/chapters/13-光の重さ/035-第35話-光の重さ.md`: 0
+- `manuscript/chapters/13-光の重さ/036-第36話-空いた椅子.md`: 0
+- `manuscript/chapters/13-光の重さ/037-第37話-血の外から.md`: 0
