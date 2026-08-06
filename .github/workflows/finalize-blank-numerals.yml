@@ -56,3 +56,5 @@ jobs:
             manuscript/management/_tmp_blank_numeral_residual.md
           git commit -m "II. BLANK第20〜37話へ数字規則1.1を例外なく適用し正典登録"
           git push origin HEAD
+
+# retrigger: 2026-08-06T20:23+09:00
