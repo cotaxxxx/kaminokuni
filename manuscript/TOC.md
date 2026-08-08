@@ -3,7 +3,7 @@
 ## 完成版目次
 
 - 本編：全100話・全28章
-- 構成：I. EARTH／II. BLANK／III. FIRE／IV. WIND／V. WATER
+- 構成：I. WIND／II. BLANK／III. EARTH／IV. FIRE／V. WATER
 - 外伝：「市」全4話／「レオニス」全4話
 - 総収録数：108話
 
@@ -11,7 +11,7 @@
 
 ---
 
-# I. EARTH
+# I. WIND
 
 ## 第1章「命令」
 
@@ -86,7 +86,7 @@
 
 ---
 
-# III. FIRE
+# III. EARTH
 
 ## 第11章「命題」
 
@@ -138,7 +138,7 @@
 
 ---
 
-# IV. WIND
+# IV. FIRE
 
 ## 第17章「交代」
 
