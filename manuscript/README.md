@@ -1,67 +1,30 @@
 # 『The Black Wall』本文
 
-- [全話目次](./INDEX.md)
+## 読書入口
+
+- [正式目次（全28章・本編100話）](./TOC.md)
 - [外伝目次](./SIDE_STORIES_INDEX.md)
 - [本文登録履歴](./REGISTRATION_LOG.md)
-- [第1章「落城」登録台帳](./management/01-落城-登録台帳.md)
-- [第2章「南へ」登録台帳](./management/02-南へ-登録台帳.md)
-- [第3章「歓楽街セル」登録台帳](./management/03-歓楽街セル-登録台帳.md)
-- [第4章「デルムンド」登録台帳](./management/04-デルムンド-登録台帳.md)
-- [第5章「光の遅れ」登録台帳](./management/05-光の遅れ-登録台帳.md)
-- [第6章「キジルバシュ」登録台帳](./management/06-キジルバシュ-登録台帳.md)
-- [第7章「リデル炎上」登録台帳](./management/07-リデル炎上-登録台帳.md)
-- [第8章「選民」登録台帳](./management/08-選民-登録台帳.md)
-- [第9章「扉を開く者」登録台帳](./management/09-扉を開く者-登録台帳.md)
-- [第10章「三枚の翼」登録台帳](./management/10-三枚の翼-登録台帳.md)
-- [第11章「記録の行方」登録台帳](./management/11-記録の行方-登録台帳.md)
-- [第12章「箱」登録台帳](./management/12-箱-登録台帳.md)
-- [第13章「光の重さ」登録台帳](./management/13-光の重さ-登録台帳.md)
-- [第14章「黒い壁」登録台帳](./management/14-黒い壁-登録台帳.md)
-- [第15章「石」登録台帳](./management/15-石-登録台帳.md)
-- [第16章「南方の陸地」登録台帳](./management/16-南方の陸地-登録台帳.md)
-- [第17章「帰還」登録台帳](./management/17-帰還-登録台帳.md)
-- [第18章「セル」登録台帳](./management/18-セル-登録台帳.md)
-- [第19章「坑道」登録台帳](./management/19-坑道-登録台帳.md)
-- [第20章「借り」登録台帳](./management/20-借り-登録台帳.md)
-- [第21章「御前会議」登録台帳](./management/21-御前会議-登録台帳.md)
-- [第22章「入国」登録台帳](./management/22-入国-登録台帳.md)
-- [第23章「桜」登録台帳](./management/23-桜-登録台帳.md)
-- [第24章「研究所」登録台帳](./management/24-研究所-登録台帳.md)
-- [第25章「マーサ」登録台帳](./management/25-マーサ-登録台帳.md)
-- [第26章「納品」登録台帳](./management/26-納品-登録台帳.md)
-- [外伝「市」登録台帳](./management/外伝-市-登録台帳.md)
 
-## 登録済み章
+**章番号、章題、章境界、五編順序および正式な読書順は、`TOC.md` を唯一の現行正本とする。**
 
-- 第1章「落城」：第1話〜第3話 `REGISTERED / LOCKED`
-- 第2章「南へ」：第4話〜第6話 `REGISTERED / LOCKED`
-- 第3章「歓楽街セル」：第7話〜第10話 `REGISTERED / LOCKED`
-- 第4章「デルムンド」：第11話〜第13話 `REGISTERED / LOCKED`
-- 第5章「光の遅れ」：第14話〜第16話 `REGISTERED / LOCKED`
-- 第6章「キジルバシュ」：第17話〜第19話 `REGISTERED / LOCKED`
-- 第7章「リデル炎上」：第20話〜第22話 `REGISTERED / LOCKED`
-- 第8章「選民」：第23話〜第24話 `REGISTERED / LOCKED`
-- 第9章「扉を開く者」：第25話〜第27話 `REGISTERED / LOCKED`
-- 第10章「三枚の翼」：第28話〜第29話 `REGISTERED / LOCKED`
-- 第11章「記録の行方」：第30話〜第31話 `REGISTERED / LOCKED`
-- 第12章「箱」：第32話〜第33話 `REGISTERED / LOCKED`
-- 第13章「光の重さ」：第34話〜第37話 `REGISTERED / LOCKED`
-- 第14章「黒い壁」：第38話〜第40話 `REGISTERED / LOCKED`
-- 第15章「石」：第41話〜第45話 `REGISTERED / LOCKED`
-- 第16章「南方の陸地」：第46話〜第49話 `REGISTERED / LOCKED`
-- 第17章「帰還」：第50話〜第51話 `REGISTERED / LOCKED`
-- 第18章「セル」：第52話〜第53話 `REGISTERED / LOCKED`
-- 第19章「坑道」：第54話〜第56話 `REGISTERED / LOCKED`
-- 第20章「借り」：第57話〜第60話 `REGISTERED / LOCKED`
-- 第21章「御前会議」：第61話〜第63話 `REGISTERED / LOCKED`
-- 第22章「入国」：第64話〜第66話 `REGISTERED / LOCKED`
-- 第23章「桜」：第67話〜第69話 `REGISTERED / LOCKED`
-- 第24章「研究所」：第70話〜第72話 `REGISTERED / LOCKED`
-- 第25章「マーサ」：第73話〜第75話 `REGISTERED / LOCKED`
-- 第26章「納品」：第76話〜第78話 `REGISTERED / LOCKED`
+## 本文の状態
 
-## 登録済み外伝
+- 本編：全100話・全28章
+- 外伝：「市」全4話、「レオニス」全4話
+- 総収録数：108話
+- 本文：全話 `REGISTERED / LOCKED`
 
-- 外伝「市」：第1話〜第4話 `REGISTERED / LOCKED`
+## 制作時配置について
 
-登録済み本文は遡及修正しない。登録後に判明した問題は、後続話、前方訂正記録、正典管理記録で処理する。
+`chapters/` は本文制作時の旧34章配置を保持している。ディレクトリ名と現行28章の章題・章境界は一致しない場合があるが、本文ファイルへのリンク先として維持する。
+
+[`INDEX.md`](./INDEX.md) は、この旧配置に基づく**制作時配置索引**である。現行の章構成や読書順を定める文書ではない。
+
+## 管理資料
+
+- `management/`：登録・改稿・整合処理の履歴
+- `../canon/`：正典資料
+- `../editorial/`：編集・校正基準
+
+これらの管理資料は本編の展開に関する情報を含む。
